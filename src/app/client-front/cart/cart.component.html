@@ -1,0 +1,108 @@
+<main>
+    <div class="container-fluid">
+        <h1 class="mt-4">Carrito de Compras</h1>
+        <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item"><a href="index.html">Portal de Cliente</a></li>
+            <li class="breadcrumb-item active">Carrito</li>
+        </ol>
+
+        <!-- //// CONTROL DASHBOARD: OVERFLOW DIV ALLOWS FOR SCROLL BARS WHEN NEEDED /// -->
+        <div class="card mb-4">
+            <div class="card-body">Revise aqui los item a comprar.</div>
+        </div>
+
+        <!-- //// CONTENT DISPLAY /// -->
+        <div class="container mb-4">
+            <div class="row">
+                <div class="col-12">
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th scope="col"> </th>
+                                    <th scope="col">Nombre</th>
+                                    <th scope="col" class="text-center">Cantidad</th>
+                                    <th scope="col" class="text-right">Precio</th>
+                                    <th> </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
+                                    <td>Nombre de Proyecto</td>
+                                    
+                                    <td><input class="form-control" type="text" value="1" /></td>
+                                    <td class="text-right">$ 100</td>
+                                    <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
+                                    <td>Nombre de Proyecto</td>
+                                    
+                                    <td><input class="form-control" type="text" value="1" /></td>
+                                    <td class="text-right">$ 100</td>
+                                    <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
+                                </tr>
+                                <tr>
+                                    <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
+                                    <td>Nombre de Proyecto</td>
+                                    
+                                    <td><input class="form-control" type="text" value="1" /></td>
+                                    <td class="text-right">$ 100</td>
+                                    <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Sub-Total</td>
+                                    <td class="text-right">$ 100</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td>Shipping</td>
+                                    <td class="text-right">$ 100</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td><strong>Total</strong></td>
+                                    <td class="text-right"><strong>$ 100</strong></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col mb-2">
+                    <div class="row">
+                        <div class="col-sm-12  col-md-6">
+                            <button class="btn btn-block btn-secondary"routerLink="/client-search" routerLinkActive="active" >Continuar Buscando</button>
+                        </div>
+                        <div class="col-sm-12 col-md-6 text-right">
+                            <button class="btn btn-block btn-success" routerLink="/checkout" routerLinkActive="active" >Confirmar Items</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</main>
+
+<!-- //// FOOTER /// -->
+<footer class="py-4 bg-light mt-auto">
+    <div class="container-fluid">
+        <div class="d-flex align-items-center justify-content-between small">
+            <div class="text-muted">Bitácora Científica ~ Servicios Web 2020</div>
+            <div>
+                <a href="help.html">Ayuda</a>
+                &middot;
+                <a href="languaje.html">Cambiar Idioma</a>
+            </div>
+        </div>
+    </div>
+</footer>

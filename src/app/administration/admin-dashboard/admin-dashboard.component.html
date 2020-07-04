@@ -1,0 +1,58 @@
+<mat-sidenav-container class="sidenav-container sb-nav-fixed">
+  <mat-sidenav
+    #drawer
+    class="sidenav navbar-dark bg-dark"
+    fixedInViewport="true"
+    [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+    [mode]="(isHandset$ | async) ? 'over' : 'side'"
+    [opened]="!(isHandset$ | async)">
+    <mat-toolbar class="text-white" style="background-color: black;">Bitacora Cientifica</mat-toolbar>
+    <mat-nav-list class="bg-dark" style="font-weight: semi-bold;">
+      <a mat-list-item class="text-white" routerLink="/test-page" routerLinkActive="active">Test Component</a>
+      <a mat-list-item class="text-white" routerLink="/" routerLinkActive="active">Proyectos</a>
+      <a mat-list-item class="text-white" routerLink="/branches" routerLinkActive="active">Ramas Cientificas</a>
+      <a mat-list-item class="text-white" routerLink="/categories" routerLinkActive="active">Tipos</a>
+      <a mat-list-item class="text-white" routerLink="/categories-detail" routerLinkActive="active">Consecutivos</a>
+      <a mat-list-item class="text-white" routerLink="/roles" routerLinkActive="active">Roles</a>
+      <a mat-list-item class="text-white" routerLink="/posts" routerLinkActive="active">Puestos</a>
+      <a mat-list-item class="text-white" routerLink="/education" routerLinkActive="active">Educacion</a>
+      <a mat-list-item class="text-white" routerLink="/users" routerLinkActive="active">Usuarios</a>
+      <a mat-list-item class="text-white" routerLink="/system-journal" routerLinkActive="active">Bitacora</a>
+      <a mat-list-item class="text-white" routerLink="/experiments-journal" routerLinkActive="active">Bitacora Experimental</a>
+      <a mat-list-item class="text-white" routerLink="/error-log" routerLinkActive="active">Errores</a>
+      <a mat-list-item class="text-white" routerLink="/" routerLinkActive="active">Seguridad</a>
+      <a mat-list-item class="text-white" routerLink="/client-search" routerLinkActive="active">Buscador</a>
+      <a mat-list-item class="text-white" routerLink="/cart" routerLinkActive="active">Carrito</a>
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar class="bg-dark">
+      <button
+        type="button"
+        aria-label="Toggle sidenav"
+        mat-icon-button
+        (click)="drawer.toggle()"
+        *ngIf="isHandset$ | async">
+        <mat-icon aria-label="Side nav toggle icon">Menu</mat-icon>
+      </button>
+      
+      <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></button>
+        <div id="myDropdown" class="dropdown-content">
+          <a routerLink="/" routerLinkActive="active">Ayuda</a>
+          <a routerLink="/" routerLinkActive="active">Cambiar Idioma</a>
+          <a routerLink="/login" routerLinkActive="active" >Cerrar Sesion</a>
+        </div>
+      </div>
+    </mat-toolbar>
+
+    <router-outlet></router-outlet>
+
+  </mat-sidenav-content>
+  <app-test-page></app-test-page>
+</mat-sidenav-container>
+
+
+
+
+
