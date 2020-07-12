@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { TestPageComponent } from './administration/test-page/test-page.component';
 import { AdminIndexComponent } from './administration/admin-index/admin-index.component';
 import { AdminDashboardComponent } from './administration/admin-dashboard/admin-dashboard.component';
+import { ProjectsComponent } from './journal-sections/projects/projects.component';
 import { LoginComponent } from './authentication/login/login.component';
 import { BranchesComponent } from './journal-sections/branches/branches.component';
 import { CategoriesComponent } from './journal-sections/categories/categories.component';
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'admin-index', component: AdminIndexComponent },
   { path: 'test-page', component: TestPageComponent },
   { path: 'login-page', component: LoginComponent },
+  { path: 'projects', component: ProjectsComponent },
   { path: 'branches', component: BranchesComponent },
   { path: 'categories', component: CategoriesComponent },
   { path: 'categories-detail', component: CategoriesDetailComponent },

@@ -9986,6 +9986,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: var(--secondary);
 }
 #layoutAuthentication #layoutAuthentication_content {
   min-width: 0;
