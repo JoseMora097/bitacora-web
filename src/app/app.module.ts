@@ -26,6 +26,7 @@ import { ClientResultsComponent } from './client-front/client-results/client-res
 import { CartComponent } from './client-front/cart/cart.component';
 import { CheckoutComponent } from './client-front/checkout/checkout.component';
 import { ProjectsComponent } from './journal-sections/projects/projects.component';
+import { LanguageComponent } from './administration/language/language.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +50,8 @@ import { ProjectsComponent } from './journal-sections/projects/projects.componen
     ClientResultsComponent,
     CartComponent,
     CheckoutComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    LanguageComponent
   ],
   imports: [
     BrowserModule,

@@ -19,11 +19,13 @@ import { PasswordRecoverComponent } from './authentication/password-recover/pass
 import { ClientSearchComponent } from './client-front/client-search/client-search.component';
 import { CartComponent } from './client-front/cart/cart.component';
 import { CheckoutComponent } from './client-front/checkout/checkout.component';
+import { LanguageComponent } from './administration/language/language.component';
 
 const routes: Routes = [
+  { path: '',   redirectTo: '/test-page', pathMatch: 'full' },
   { path: 'app-admin-dashboard', component: AdminDashboardComponent },
   { path: 'admin-index', component: AdminIndexComponent },
-  { path: 'test-page', component: TestPageComponent },
+  { path: 'test-page', component: TestPageComponent},
   { path: 'login-page', component: LoginComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'branches', component: BranchesComponent },
@@ -40,7 +42,8 @@ const routes: Routes = [
   { path: 'password-recover', component: PasswordRecoverComponent },
   { path: 'client-search', component: ClientSearchComponent },
   { path: 'cart', component: CartComponent },
-  { path: 'checkout', component: CheckoutComponent }
+  { path: 'checkout', component: CheckoutComponent },
+  { path: 'change-language', component: LanguageComponent }
 
 ];
 
@@ -48,4 +51,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
+
 export class AppRoutingModule { }
