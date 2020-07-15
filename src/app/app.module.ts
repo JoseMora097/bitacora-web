@@ -27,6 +27,31 @@ import { CartComponent } from './client-front/cart/cart.component';
 import { CheckoutComponent } from './client-front/checkout/checkout.component';
 import { ProjectsComponent } from './journal-sections/projects/projects.component';
 import { LanguageComponent } from './administration/language/language.component';
+import { BranchesTableComponent } from './journal-sections/branches/branches-table/branches-table.component';
+import { BranchesControlComponent } from './journal-sections/branches/branches-control/branches-control.component';
+import { BranchesService } from './journal-sections/branches/shared/branches.service';
+import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { CategoriesControlComponent } from './journal-sections/categories/categories-control/categories-control.component';
+import { CategoriesTableComponent } from './journal-sections/categories/categories-table/categories-table.component';
+import { CategoriesDetailControlComponent } from './journal-sections/categories-detail/categories-detail-control/categories-detail-control.component';
+import { CategoriesDetailTableComponent } from './journal-sections/categories-detail/categories-detail-table/categories-detail-table.component';
+import { EducationControlComponent } from './journal-sections/education/education-control/education-control.component';
+import { EducationTableComponent } from './journal-sections/education/education-table/education-table.component';
+import { ErrorLogControlComponent } from './journal-sections/error-log/error-log-control/error-log-control.component';
+import { ErrorLogTableComponent } from './journal-sections/error-log/error-log-table/error-log-table.component';
+import { ExperimentsJournalControlComponent } from './journal-sections/experiments-journal/experiments-journal-control/experiments-journal-control.component';
+import { ExperimentsJournalTableComponent } from './journal-sections/experiments-journal/experiments-journal-table/experiments-journal-table.component';
+import { PostsControlComponent } from './journal-sections/posts/posts-control/posts-control.component';
+import { PostsTableComponent } from './journal-sections/posts/posts-table/posts-table.component';
+import { ProjectsControlComponent } from './journal-sections/projects/projects-control/projects-control.component';
+import { ProjectsTableComponent } from './journal-sections/projects/projects-table/projects-table.component';
+import { RolesControlComponent } from './journal-sections/roles/roles-control/roles-control.component';
+import { RolesTableComponent } from './journal-sections/roles/roles-table/roles-table.component';
+import { SystemJournalControlComponent } from './journal-sections/system-journal/system-journal-control/system-journal-control.component';
+import { SystemJournalTableComponent } from './journal-sections/system-journal/system-journal-table/system-journal-table.component';
+import { UsersControlComponent } from './journal-sections/users/users-control/users-control.component';
+import { UsersTableComponent } from './journal-sections/users/users-table/users-table.component';
 
 @NgModule({
   declarations: [
@@ -51,11 +76,34 @@ import { LanguageComponent } from './administration/language/language.component'
     CartComponent,
     CheckoutComponent,
     ProjectsComponent,
-    LanguageComponent
+    LanguageComponent,
+    BranchesTableComponent,
+    BranchesControlComponent,
+    CategoriesControlComponent,
+    CategoriesTableComponent,
+    CategoriesDetailControlComponent,
+    CategoriesDetailTableComponent,
+    EducationControlComponent,
+    EducationTableComponent,
+    ErrorLogControlComponent,
+    ErrorLogTableComponent,
+    ExperimentsJournalControlComponent,
+    ExperimentsJournalTableComponent,
+    PostsControlComponent,
+    PostsTableComponent,
+    ProjectsControlComponent,
+    ProjectsTableComponent,
+    RolesControlComponent,
+    RolesTableComponent,
+    SystemJournalControlComponent,
+    SystemJournalTableComponent,
+    UsersControlComponent,
+    UsersTableComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    FormsModule,
     BrowserAnimationsModule,
     LayoutModule,
     MatToolbarModule,
@@ -63,8 +111,9 @@ import { LanguageComponent } from './administration/language/language.component'
     MatSidenavModule,
     MatIconModule,
     MatListModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [BranchesService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

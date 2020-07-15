@@ -1,0 +1,59 @@
+<div id='controlDashboard'>
+    <table>
+        <tr>
+          <!-- //// TOOLBAR /// -->
+          <th>
+            <div class="card bg-light text-dark mb-4">
+            <div class="button-box">
+                <div class="btn-group-vertical" style="align-items: stretch;">
+                    <button type="button" class="btn btn-secondary"><i class="fas fa-redo-alt"></i> Refrescar</button>
+                    <button type="button" class="btn btn-secondary"><i class="fas fa-check-square"></i> Aceptar</button>
+                    <button type="button" class="btn btn-secondary"><i class="fas fa-window-close"></i> Cancelar</button>
+                    <button type="button" class="btn btn-secondary"><i class="fas fa-broom"></i> Borrar Texto</button>
+                </div>
+            </div>
+            </div>
+          </th>
+          <!-- //// INPUT PANELS /// -->
+          <th>
+            <div class="card bg-light text-dark mb-4 large-box">
+                <div class="card-body font-weight-bold">Solo Busqueda</div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text font-weight-semibold" id="basic-addon1">Codigo: </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="" aria-label="branchCode">
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text font-weight-semibold" id="basic-addon1">Nombre: </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="" aria-label="branchCode">
+                </div>
+                <br><br>
+            </div>
+          </th>
+          <th>
+            <div class="card bg-light text-dark mb-4 large-box">
+                <div class="card-body font-weight-bold">Descripcion</div>
+
+                <div class="input-group mb-3">
+                    <textarea class="form-control" rows="5" id="description"></textarea>
+                </div>
+
+                <div style="width: 100%;">
+                <button type="button" class="btn btn-info" style="width: 33.33%;"><i class="fas fa-plus-square"></i> Agregar </button>
+                <button type="button" class="btn btn-info" style="width: 33.33%;"><i class="fas fa-broom"></i> Limpiar </button>
+                <button type="button" class="btn btn-info" style="width: 33.33%;"><i class="fas fa-minus-square"></i> Eliminar </button>
+                </div>
+            </div>
+          </th>
+        </tr>
+      </table>
+</div>
+
+<div class="card mb-4">
+    <div class="card-body">Descripcion de Ejemplo. Tabla generada con DataTables plugin. <a target="_blank" href="https://datatables.net/">Official DataTables documentation</a>.</div>
+</div>

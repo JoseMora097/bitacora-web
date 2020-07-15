@@ -1,0 +1,51 @@
+<div id='controlDashboard'>
+    <table>
+        <tr>
+          <th>
+            <!-- //// INPUT PANELS /// -->
+            <div class="card bg-light text-dark mb-4 medium-box" style="width: 600px;">
+                
+                <div class="card-header font-weight-bold">Informacion de la Bitacora</div>
+                <br>
+                <div class="font-weight-semibold" style="text-align: center;">
+                    <input type="radio" id="dewey" name="drone" value="dewey">
+                    <label for="dewey">Consulta por rango de fecha</label>
+                    <input type="radio" id="dewey" name="drone" value="dewey">
+                    <label for="dewey">Consulta General</label>
+                    <input type="radio" id="dewey" name="drone" value="dewey">
+                    <label for="dewey">Consulta por Usuario</label>
+                </div>
+
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text font-weight-semibold" id="basic-addon1">Fecha Inicial: </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="" aria-label="branchCode">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text font-weight-semibold" id="basic-addon1">Fecha Final: </span>
+                      </div>
+                      <input type="text" class="form-control" placeholder="" aria-label="branchCode">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text font-weight-semibold" id="basic-addon1">Usuario: </span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="" aria-label="branchCode">
+                </div>
+            </div>
+          </th>
+
+          <!-- //// TOOLBAR /// -->
+          <th>
+            <div class="card bg-light text-dark mb-4">
+            <div class="button-box">
+                <div class="btn-group-vertical" style="align-items: stretch;">
+                    <button type="button" class="btn btn-secondary"><i class="fas fa-check-square"></i> Aceptar</button>
+                    <button type="button" class="btn btn-secondary"><i class="fas fa-window-close"></i> Cancelar</button>
+                </div>
+            </div>
+            </div>
+          </th>
+        </tr>
+      </table>
+</div>
