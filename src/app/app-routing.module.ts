@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { TestPageComponent } from './administration/test-page/test-page.component';
-import { AdminIndexComponent } from './administration/admin-index/admin-index.component';
 import { AdminDashboardComponent } from './administration/admin-dashboard/admin-dashboard.component';
 import { ProjectsComponent } from './journal-sections/projects/projects.component';
 import { LoginComponent } from './authentication/login/login.component';
@@ -24,7 +23,6 @@ import { LanguageComponent } from './administration/language/language.component'
 const routes: Routes = [
   { path: '',   redirectTo: '/test-page', pathMatch: 'full' },
   { path: 'app-admin-dashboard', component: AdminDashboardComponent },
-  { path: 'admin-index', component: AdminIndexComponent },
   { path: 'test-page', component: TestPageComponent},
   { path: 'login-page', component: LoginComponent },
   { path: 'projects', component: ProjectsComponent },
