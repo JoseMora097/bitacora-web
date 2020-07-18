@@ -1,55 +1,64 @@
 <main>
+  <title>{{ 'revicion.checkout' | translate }}</title>
     <div class="container-fluid">
-        <h1 class="mt-4">Revision de Pedido</h1>
+        <h1 class="mt-4">{{ 'revicion.titulo' | translate }}</h1>
         <ol class="breadcrumb mb-4">
-            <li class="breadcrumb-item"><a href="#">Portal de Cliente</a></li>
-            <li class="breadcrumb-item"><a href="#">Carrito</a></li>
-            <li class="breadcrumb-item active">Revision de Pedido</li>
+            <li class="breadcrumb-item"><a href="#">{{ 'revicion.titulo2' | translate }}</a></li>
+            <li class="breadcrumb-item"><a href="#">
+              {{ 'revicion.Carrito' | translate }}</a></li>
+            <li class="breadcrumb-item active">
+              {{ 'revicion.titulo' | translate }}</li>
         </ol>
 
         <!-- //// CHECKOUT DISPLAY /// -->
 
         <div class="card">
             <div class="card-header">
-                Informacion de Pago
+              
+{{ 'revicion.Informacion_de_Pago' | translate }}
             </div>
             <div class="card-body">
-              <h5 class="card-title">Metodo de Pago</h5>
+              <h5 class="card-title">{{ 'revicion.Metodo_de_Pago' | translate }}</h5>
               
 
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
                 <label class="form-check-label" for="defaultCheck1">
-                  Credito
+                  {{ 'revicion.Credito' | translate }}
                 </label>
               </div>
               <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="defaultCheck2">
                 <label class="form-check-label" for="defaultCheck2">
-                  Debito
+                  {{ 'revicion.Credito' | translate }}
                 </label>
             </div>
             <br>
             <form>
                 <div class="form-group">
-                  <label for="exampleInputEmail1">Nombre en la tarjeta</label>
+                  <label for="exampleInputEmail1">{{ 'revicion.Nombre_en_la_tarjeta' | translate }}</label>
                   <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                  <small id="emailHelp" class="form-text text-muted">Nombre completo como se muestra en la tarjeta.</small>
+                  <small id="emailHelp" class="form-text text-muted">
+                    {{ 'revicion.Nombre_completo_como_se_muestra_en_la_tarjeta' | translate }}</small>
                 </div>
                 <div class="form-group">
-                  <label for="exampleInputPassword1">Numero de tarjeta</label>
+                  <label for="exampleInputPassword1">
+                    {{ 'revicion.Numero_de_tarjeta' | translate }}
+                    </label>
                   <input type="password" class="form-control" id="exampleInputPassword1" placeholder="000-000-000">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">Expiracion</label>
+                    <label for="exampleInputPassword1">
+                      {{ 'revicion.Expiracion' | translate }}
+                      </label>
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="00/00/00">
                 </div>
                 <div class="form-group">
-                    <label for="exampleInputPassword1">CVV</label>
+                    <label for="exampleInputPassword1">{{ 'revicion.Regresar_al_Carrito' | translate }}</label>
                     <input type="password" class="form-control" id="exampleInputPassword1" placeholder="###">
                 </div>
-                <button type="button" class="btn btn-secondary" routerLink="/cart" routerLinkActive="active">Regresar al Carrito</button>
-                <button type="button" class="btn btn-primary">Realizar Compra</button>
+                <button type="button" class="btn btn-secondary" routerLink="/cart" routerLinkActive="active"> {{ 'revicion.Regresar_al_Carrito' | translate }} </button>
+                <button type="button" class="btn btn-primary">{{ 'revicion.Realizar_Compra' | translate }}</button>
               </form>
 
 
@@ -65,11 +74,15 @@
 <footer class="py-4 bg-light mt-auto">
     <div class="container-fluid">
         <div class="d-flex align-items-center justify-content-between small">
-            <div class="text-muted">Bitácora Científica ~ Servicios Web 2020</div>
-            <div>
-                <a href="#">Ayuda</a>
-                &middot;
-                <a href="#">Cambiar Idioma</a>
+          <div class="text-muted">{{ 'bitacora.bi' | translate }}</div>                                                                                                             <!-- //// Impit del nombre /// -->     
+          <!-- //// texto al final de la pagna/// -->          
+       
+          <div>
+              <a href="help.html">{{ 'ayuda.ayuda' | translate }}</a>                                                                                                             <!-- //// Impit del nombre /// -->     
+              <!-- ////ayuda/// -->          
+        
+
+              &middot;
             </div>
         </div>
     </div>

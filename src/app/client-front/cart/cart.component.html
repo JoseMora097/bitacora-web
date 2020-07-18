@@ -1,14 +1,17 @@
 <main>
+    <title>{{ 'tablero.biapp' | translate }}</title>
     <div class="container-fluid">
-        <h1 class="mt-4">Carrito de Compras</h1>
+        <h1 class="mt-4">{{ 'Carrito.titulo' | translate }}</h1>     <!-- //// titulo/// -->
         <ol class="breadcrumb mb-4">
-            <li class="breadcrumb-item"><a href="index.html">Portal de Cliente</a></li>
-            <li class="breadcrumb-item active">Carrito</li>
+            <li class="breadcrumb-item"><a href="index.html">{{ 'Carrito.sub1' | translate }}</a></li>     <!-- //// subtitulo/// -->
+            <li class="breadcrumb-item active">{{ 'Carrito.sub2' | translate }}</li>     <!-- //// subtitulo/// -->
         </ol>
+
 
         <!-- //// CONTROL DASHBOARD: OVERFLOW DIV ALLOWS FOR SCROLL BARS WHEN NEEDED /// -->
         <div class="card mb-4">
-            <div class="card-body">Revise aqui los item a comprar.</div>
+            <!-- //// subtitulo/// -->
+         <div class="card-body">{{ 'Carrito.Revise' | translate }}</div>
         </div>
 
         <!-- //// CONTENT DISPLAY /// -->
@@ -20,56 +23,61 @@
                             <thead>
                                 <tr>
                                     <th scope="col"> </th>
-                                    <th scope="col">Nombre</th>
-                                    <th scope="col" class="text-center">Cantidad</th>
-                                    <th scope="col" class="text-right">Precio</th>
+                                    <!-- //// nombre /// -->
+                                    <th scope="col">{{ 'Carrito.nombre' | translate }}</th>
+                                    <!-- //// Cantidad/// -->
+                                    <th scope="col" class="text-center">{{ 'Carrito.Cantidad' | translate }}</th>
+                                    <!-- //// Precio/// -->
+                                    <th scope="col" class="text-right">{{ 'Carrito.Precio' | translate }}</th>
                                     <th> </th>
                                 </tr>
                             </thead>
                             <tbody>
-                                <tr>
+                                <tr><!-- //// nombre del proyecto/// -->
                                     <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
-                                    <td>Nombre de Proyecto</td>
+                                    <td>{{ 'Carrito.Nombre_del_Proyecto' | translate }}</td>
+                                    
+                                    <td><input class="form-control" type="text" value="1" /></td>
+                                    <td class="text-right">$ 100</td>
+                                    <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
+                                </tr>
+                                <tr><!-- //// nombre del proyecto/// -->
+                                    <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
+                                    <td>{{ 'Carrito.Nombre_del_Proyecto' | translate }}</td>
+                                    
+                                    <td><input class="form-control" type="text" value="1" /></td>
+                                    <td class="text-right">$ 100</td>
+                                    <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
+                                </tr>
+                                <tr><!-- //// nombre del proyecto/// -->
+                                    <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
+                                    <td>{{ 'Carrito.Nombre_del_Proyecto' | translate }}</td>
                                     
                                     <td><input class="form-control" type="text" value="1" /></td>
                                     <td class="text-right">$ 100</td>
                                     <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
                                 </tr>
                                 <tr>
-                                    <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
-                                    <td>Nombre de Proyecto</td>
-                                    
-                                    <td><input class="form-control" type="text" value="1" /></td>
-                                    <td class="text-right">$ 100</td>
-                                    <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
-                                </tr>
-                                <tr>
-                                    <td><img src="https://dummyimage.com/50x50/55595c/fff" /> </td>
-                                    <td>Nombre de Proyecto</td>
-                                    
-                                    <td><input class="form-control" type="text" value="1" /></td>
-                                    <td class="text-right">$ 100</td>
-                                    <td class="text-right"><button class="btn btn-sm btn-danger"><i class="fa fa-trash"></i> </button> </td>
-                                </tr>
-                                <tr>
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td>Sub-Total</td>
+                                       <!-- //// SUBTOTAL/// -->
+                                    <td>{{ 'Carrito.Sub_Total' | translate }}</td>
                                     <td class="text-right">$ 100</td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td>Shipping</td>
+                                      <!-- //// ENVIAR/// -->
+                                    <td>{{'Carrito.Envío' | translate }}</td>
                                     <td class="text-right">$ 100</td>
                                 </tr>
                                 <tr>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
-                                    <td><strong>Total</strong></td>
+                                    <td></td>  <!-- //// TOTAL/// -->
+                                    <td><strong> {{ 'Carrito.Total' | translate }}</strong></td>
                                     <td class="text-right"><strong>$ 100</strong></td>
                                 </tr>
                             </tbody>
@@ -78,11 +86,12 @@
                 </div>
                 <div class="col mb-2">
                     <div class="row">
-                        <div class="col-sm-12  col-md-6">
-                            <button class="btn btn-block btn-secondary"routerLink="/client-search" routerLinkActive="active" >Continuar Buscando</button>
+                        <div class="col-sm-12  col-md-6">                                                                       <!-- //// BOTON cONTINUAR BUSCANDO/// -->
+                            <button class="btn btn-block btn-secondary"routerLink="/client-search" routerLinkActive="active" >  {{ 'Carrito.Continuar_buscando' | translate }}</button>
                         </div>
-                        <div class="col-sm-12 col-md-6 text-right">
-                            <button class="btn btn-block btn-success" routerLink="/checkout" routerLinkActive="active" >Confirmar Items</button>
+                        <div class="col-sm-12 col-md-6 text-right">                                                           
+                                                                                                                          <!-- //// BOTON CONFIRMAR ITEM /// -->
+                            <button class="btn btn-block btn-success" routerLink="/checkout" routerLinkActive="active" >  {{ 'Carrito.Confirmar_item' | translate }}</button>
                         </div>
                     </div>
                 </div>
@@ -97,11 +106,15 @@
 <footer class="py-4 bg-light mt-auto">
     <div class="container-fluid">
         <div class="d-flex align-items-center justify-content-between small">
-            <div class="text-muted">Bitácora Científica ~ Servicios Web 2020</div>
+            <div class="text-muted">{{ 'bitacora.bi' | translate }}</div>                                                                                                             <!-- //// Impit del nombre /// -->     
+            <!-- //// texto al final de la pagna/// -->          
+         
             <div>
-                <a href="help.html">Ayuda</a>
+                <a href="help.html">{{ 'ayuda.ayuda' | translate }}</a>                                                                                                             <!-- //// Impit del nombre /// -->     
+                <!-- ////ayuda/// -->          
+          
+
                 &middot;
-                <a href="languaje.html">Cambiar Idioma</a>
             </div>
         </div>
     </div>

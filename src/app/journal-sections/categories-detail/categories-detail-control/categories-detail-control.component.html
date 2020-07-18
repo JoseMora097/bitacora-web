@@ -10,57 +10,63 @@
                                 <div class="card bg-light text-dark mb-4">
                                     <div class="largeButton-box">
                                         <div class="btn-group-vertical" style="align-items: stretch;">
-                                            <button type="button" class="btn btn-secondary"><i class="fas fa-plus-square"></i> Agregar </button>
-                                            <button type="button" class="btn btn-secondary"><i class="fas fa-redo-alt"></i> Refrescar</button>
-                                            <button type="button" class="btn btn-secondary"><i class="fas fa-check-square"></i> Aceptar</button>
-                                            <button type="button" class="btn btn-secondary"><i class="fas fa-window-close"></i> Cancelar</button>
-                                            <button type="button" class="btn btn-secondary"><i class="fas fa-broom"></i> Borrar Texto</button>
-                                        </div>
+                                                                                                                                <!-- //// Boton de Refrescar// -->     
+                                                                                                                                <button type="button" class="btn btn-secondary"><i class="fas fa-redo-alt"></i>     {{ 'btn.btn1' | translate }}</button>
+                                                                                                                                <!-- ////Boton de Aceptar /// -->                                                    
+                                             <button type="button" class="btn btn-secondary"><i class="fas fa-check-square"></i> {{ 'btn.btn2' | translate }}</button>
+                                                                                                                                <!-- //// Boton de Cncelar // -->                                   
+                                             <button type="button" class="btn btn-secondary"><i class="fas fa-window-close"></i> {{ 'btn.btn3' | translate }}</button>
+                                                                                                                                <!-- ////Boton de Borrar Texto/// -->      
+                                             <button type="button" class="btn btn-secondary"><i class="fas fa-broom"></i>        {{ 'btn.btn4' | translate }}</button>
+                                     </div>
                                     </div>
                                 </div>
                             </td>
                             <td>
-                                <!-- //// INPUT PANELS /// -->
-                                <div class="card bg-light text-dark mb-4 flex-box">
-                                    <div class="card-body font-weight-bold">Informacion del Consecutivo</div>
-    
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Tipo de Consecutivo: </span>
-                                        </div>
-                                        <select class="form-control">
-                                            <option>Tipo</option>
-                                          </select>
-                                    </div>
-    
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Descripcion: </span>
-                                        </div>
-                                        <textarea class="form-control" rows="3" id="description"></textarea>
-                                    </div>
+                             <!-- //// INPUT PANELS /// -->
+                             <div class="card bg-light text-dark mb-4 flex-box">
+                                <!-- //// Informacion del Consecutivo : /// -->
+<div class="card-body font-weight-bold">{{ 'consecutivo.Info_del_Con' | translate }} :</div>
 
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Valor Consecutivo: </span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                                    </div>
+<div class="input-group mb-3">
+<div class="input-group-prepend">                                        <!-- //// tipos Consecutivo : /// -->
+<span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'consecutivo.Tip_conse' | translate }} : </span>
+</div>
+<select class="form-control">
+<!-- ////tipos : /// -->
+<option>{{ 'consecutivo.Tipo' | translate }} :</option>
+</select>
+</div>
 
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                          <span class="input-group-text font-weight-semibold" id="basic-addon1">
-                                            <div class="form-check">
-                                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                            </div>
-                                            Posee Prefijo: 
-                                          </span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                                    </div>
+<div class="input-group mb-3">
+<div class="input-group-prepend">                                          <!-- ////Descripcion: /// -->
+<span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'consecutivo.Descripcion' | translate }} :</span>
+</div>
+<textarea class="form-control" rows="3" id="description"></textarea>
+</div>
 
-                                    <button type="button" class="btn btn-info" style="width: 100%;"><i class="fas fa-broom"></i> Limpiar </button>
-                                </div>
+<div class="input-group mb-3">
+<div class="input-group-prepend">                                         <!-- ////Valor Consecutivo :/// -->
+<span class="input-group-text font-weight-semibold" id="basic-addon1"> {{ 'consecutivo.Valor_Consecutivo' | translate }} :</span>
+</div>
+<input type="text" class="form-control" placeholder="" aria-label="branchCode">
+</div>
+
+<div class="input-group mb-3">
+<div class="input-group-prepend">
+<span class="input-group-text font-weight-semibold" id="basic-addon1">
+<div class="form-check">
+<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+</div>
+<!-- ////Posee Prefijo :/// -->
+{{ 'consecutivo.Posee_Prefijo' | translate }} :
+</span>
+</div>
+<input type="text" class="form-control" placeholder="" aria-label="branchCode">
+</div>
+                                                                                     <!-- //// boton de Limpiar /// -->          
+<button type="button" class="btn btn-info" style="width: 100%;"><i class="fas fa-broom"></i>  {{ 'btn.Limpiar' | translate }} </button>
+</div>
                             </td>
                         </tr>
                     </tbody>
@@ -69,18 +75,19 @@
         </tr>
         <tr>
             <td>
-                <div class="card bg-light text-dark mb-4 flex-box">
-                    <div class="card-body font-weight-bold">Solo Busqueda</div>
+                <div class="card bg-light text-dark mb-4 flex-box"><!-- //// Solo busqueda /// -->  
+                    <div class="card-body font-weight-bold">{{ 'tipo.Busqueda' | translate }}</div>
+
                     <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Codigo: </span>
+                        <div class="input-group-prepend">                                            <!-- //// Impit del Codigo /// --> 
+                          <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'imput.imput1' | translate }}</span>
                         </div>
                         <input type="text" class="form-control" placeholder="" aria-label="branchCode">
                     </div>
 
                     <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Nombre: </span>
+                        <div class="input-group-prepend">                                         <!-- //// Impit del nombre /// --> 
+                          <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'imput.imput2' | translate }} </span>
                         </div>
                         <input type="text" class="form-control" placeholder="" aria-label="branchCode">
                     </div>

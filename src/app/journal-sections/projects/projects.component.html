@@ -1,16 +1,18 @@
 <main>
+    <title>{{ 'tablero.biapp' | translate }}</title>
     <div class="container-fluid">
-        <h1 class="mt-4">Proyectos</h1>
+        <h1 class="mt-4">{{ 'Proyecto.titulo' | translate }}</h1>
         <ol class="breadcrumb mb-4">
-            <li class="breadcrumb-item"><a href="#">Principal</a></li>
-            <li class="breadcrumb-item active">Proyectos</li>
+            <li class="breadcrumb-item"><a href="#">{{ 'Proyecto.subitulo' | translate }}</a></li>
+            <li class="breadcrumb-item active">{{ 'Proyecto.subitulo2' | translate }}</li>
         </ol>
 
         <!-- //// CONTROL DASHBOARD: OVERFLOW DIV ALLOWS FOR SCROLL BARS WHEN NEEDED /// -->
-        <app-projects-control></app-projects-control>>
+        <app-projects-control></app-projects-control>
 
+   
         <div class="card mb-4">
-            <div class="card-body">Descripcion de Ejemplo. Tabla generada con DataTables plugin. <a target="_blank" href="https://datatables.net/">Official DataTables documentation</a>.</div>
+            <div class="card-body"> {{ 'Descripcion.Des1' | translate }} <a target="_blank" href="https://datatables.net/"> {{ 'Descripcion.Des2' | translate }}</a>.</div>
         </div>
 
         <!-- //// CONTENT DISPLAY /// -->
@@ -19,17 +21,18 @@
     </div>
 </main>
 
+
 <!-- //// FOOTER /// -->
-    <footer class="py-4 bg-light mt-auto">
-        <div class="container-fluid">
-            <div class="d-flex align-items-center justify-content-between small">
-                <div class="text-muted">Bitácora Científica ~ Servicios Web 2020</div>
-                <div>
-                    <a href="help.html">Ayuda</a>
-                    &middot;
-                    <a href="languaje.html">Cambiar Idioma</a>
-                </div>
+<footer class="py-4 bg-light mt-auto">
+    <div class="container-fluid">
+        <div class="d-flex align-items-center justify-content-between small">
+            <div class="text-muted">{{ 'bitacora.bi' | translate }}</div>
+            <div>
+                <a href="help.html">{{ 'ayuda.ayuda' | translate }}</a>
+                &middot;
+                
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 

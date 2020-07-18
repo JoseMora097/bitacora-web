@@ -1,10 +1,14 @@
 <main>
+    <title>{{ 'tablero.biapp' | translate }}</title>
     <div class="container-fluid">
-        <h1 class="mt-4">Ramas Cientificas</h1>
+        <h1 class="mt-4">{{ 'Ramas.titulo' | translate }}</h1>
+     <!-- //// Titulo de del Ramas Cientificas /// -->         
+
         <ol class="breadcrumb mb-4">
-            <li class="breadcrumb-item"><a href="#">Principal</a></li>
-            <li class="breadcrumb-item active">Ramas Cientificas</li>
+            <li class="breadcrumb-item"><a href="#">{{ 'Ramas.subitulo' | translate }}</a></li><!-- //// Subtitulo Principal /// -->     
+            <li class="breadcrumb-item active">{{ 'Ramas.subitulo2' | translate }}</li><!-- //// subtitulo / Ramas Cientificas/// -->     
         </ol>
+
 
         <!-- //// CONTROL DASHBOARD: OVERFLOW DIV ALLOWS FOR SCROLL BARS WHEN NEEDED /// -->
         <app-branches-control></app-branches-control>
@@ -15,16 +19,16 @@
 </main>
 
 <!-- //// FOOTER /// -->
-    <footer class="py-4 bg-light mt-auto">
-        <div class="container-fluid">
-            <div class="d-flex align-items-center justify-content-between small">
-                <div class="text-muted">Bitácora Científica ~ Servicios Web 2020</div>
-                <div>
-                    <a href="help.html">Ayuda</a>
-                    &middot;
-                    <a href="languaje.html">Cambiar Idioma</a>
-                </div>
+<footer class="py-4 bg-light mt-auto">
+    <div class="container-fluid">
+        <div class="d-flex align-items-center justify-content-between small">
+            <div class="text-muted">{{ 'bitacora.bi' | translate }}</div>
+            <div>
+                <a href="help.html">{{ 'ayuda.ayuda' | translate }}</a>
+                &middot;
+                
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 

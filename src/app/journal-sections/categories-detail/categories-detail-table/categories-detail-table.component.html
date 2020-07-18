@@ -1,27 +1,29 @@
-<div class="card mb-4">
-    <div class="card-header"><i class="fas fa-table mr-1"></i>Tabla</div>
+   <!-- //// CONTENT DISPLAY: TABLE /// -->
+   <div class="card mb-4">                                              <!-- //// tabla/// --> 
+    <div class="card-header"><i class="fas fa-table mr-1"></i>{{ 'tabla.tabla' | translate }} </div>
     <div class="card-body">
         <div class="table-responsive">
             <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                 <thead>
                     <tr>
-                        <th>Categoria 1</th>
-                        <th>Categoria 2</th>
-                        <th>Categoria 3</th>
-                        <th>Categoria 4</th>
-                        <th>Categoria 5</th>
-                        <th>Categoria 6</th>
-                    </tr>
-                </thead>
-                <tfoot>
-                    <tr>
-                        <th>Categoria 1</th>
-                        <th>Categoria 2</th>
-                        <th>Categoria 3</th>
-                        <th>Categoria 4</th>
-                        <th>Categoria 5</th>
-                        <th>Categoria 6</th>
-                    </tr>
+                        <!-- //// Categorias/// --> 
+                       <th>{{ 'categorias.categoria1' | translate }}</th>
+                       <th>{{ 'categorias.categoria2' | translate }}</th>
+                       <th>{{ 'categorias.categoria3' | translate }}</th>
+                       <th>{{ 'categorias.categoria4' | translate }}</th>
+                       <th>{{ 'categorias.categoria5' | translate }}</th>
+                       <th>{{ 'categorias.categoria6' | translate }}</th>
+                   </tr>
+               </thead>
+               <tfoot>
+                   <tr>
+                       <th>{{ 'categorias.categoria1' | translate }}</th>
+                       <th>{{ 'categorias.categoria2' | translate }}</th>
+                       <th>{{ 'categorias.categoria3' | translate }}</th>
+                       <th>{{ 'categorias.categoria4' | translate }}</th>
+                       <th>{{ 'categorias.categoria5' | translate }}</th>
+                       <th>{{ 'categorias.categoria6' | translate }}</th>
+                   </tr>
                 </tfoot>
                 <tbody>
                     <tr>

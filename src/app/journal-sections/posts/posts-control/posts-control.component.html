@@ -1,33 +1,36 @@
-<div id='controlDashboard'>
-    <table>
-        <tr>
-          <th>
-            <!-- //// INPUT PANELS /// -->
-            <div class="card bg-light text-dark mb-4 medium-box">
-                <div class="card-body font-weight-bold">Informacion del Puesto</div>
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text font-weight-semibold" id="basic-addon1">Codigo: </span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                </div>
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text font-weight-semibold" id="basic-addon1">Nombre: </span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                </div>
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text font-weight-semibold" id="basic-addon1">Rol en el Laboratorio: </span>
-                    </div>
-                    <select class="form-control">
-                        <option>Lider de Equipo</option>
-                      </select>
-                </div>
-                <button type="button" class="btn btn-info"><i class="fa fa-eraser" aria-hidden="true"></i> Borrar </button>
-            </div>
-          </th>
+
+                        <!-- //// CONTROL DASHBOARD: OVERFLOW DIV ALLOWS FOR SCROLL BARS WHEN NEEDED /// -->
+                        <div id='controlDashboard'>
+                          <table>
+                              <tr>
+                                <th>
+                                  <!-- //// INPUT PANELS /// -->
+                                  <div class="card bg-light text-dark mb-4 medium-box"> <!-- ////Informacion del Puesto:/// --> 
+                                      <div class="card-body font-weight-bold">  {{ 'Puestos.Info_de_Puestos' | translate }}</div>
+                                      <br>
+                                      <div class="input-group mb-3">
+                                          <div class="input-group-prepend">                                          <!-- ////imput Codigo:/// --> 
+                                            <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'imput.imput1' | translate }}</span>
+                                          </div>
+                                          <input type="text" class="form-control" placeholder="" aria-label="branchCode">
+                                      </div>
+                                      <div class="input-group mb-3">
+                                          <div class="input-group-prepend">                                          <!-- ////imput Nombre/// --> 
+                                            <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'imput.imput2' | translate }}  </span>
+                                          </div>
+                                          <input type="text" class="form-control" placeholder="" aria-label="branchCode">
+                                      </div>
+                                      <div class="input-group mb-3"> 
+                                          <div class="input-group-prepend">                                        <!-- ////Rol en el Laboratorio:/// --> 
+                                            <span class="input-group-text font-weight-semibold" id="basic-addon1"> {{ 'Puestos.Rol_en_el_Laboratorio' | translate }} </span>
+                                          </div>
+                                          <select class="form-control">
+                                              <option>{{ 'Puestos.Lider_de_Equipo' | translate }}</option>
+                                            </select>
+                                      </div>                                                                                     <!-- ////Boton de borrar/// --> 
+                                      <button type="button" class="btn btn-info"><i class="fa fa-eraser" aria-hidden="true"></i> {{ 'btn.borrar' | translate }} </button>
+                                  </div>
+                                </th>
 
           <!-- //// TOOLBAR /// -->
           <th>

@@ -5,22 +5,22 @@
           <th>
             <!-- //// INPUT PANELS /// -->
             <div class="card bg-light text-dark mb-4 medium-box">
-                <div class="card-body font-weight-bold">Informacion de la Rama Cientifica</div>
-
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text font-weight-semibold" id="basic-addon1">Codigo: </span>
+                                                             <!-- //// subtitulo3 / Informacion de la Rama Cientifica/// -->     
+                        <div class="card-body font-weight-bold">{{ 'Ramas.subitulo3' | translate }}</div>
+                        <div class="input-group mb-3">
+                    <div class="input-group-prepend">                                              <!-- //// Impit del Codigo /// --> 
+                      <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'imput.imput1' | translate }}</span>
                     </div>
                     <input name="codigo_rama" #codigo_rama="ngModel" [(ngModel)]="service.formData.codigo_rama" type="text" class="form-control" placeholder="" aria-label="branchCode">
                 </div>
                 <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text font-weight-semibold" id="basic-addon1">Nombre: </span>
+                    <div class="input-group-prepend">                                           <!-- //// Impit del nombre /// -->  
+                      <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'imput.imput2' | translate }}</span>
                     </div>
                     <input name="nombre" #nombre="ngModel" [(ngModel)]="service.formData.nombre" type="text" class="form-control" placeholder="" aria-label="branchCode" required>
-                    <div class="validation-error" *ngIf="nombre.invalid && nombre.touched">This field is required</div>
-                </div>
-                <button type="button" class="btn btn-info"><i class="fa fa-eraser" aria-hidden="true"></i> Borrar </button>
+                    <div class="validation-error" *ngIf="nombre.invalid && nombre.touched">{{ 'rama.mensaje_panel' | translate }}</div>
+                </div>                                                                                       <!-- //// Boton borrar/// -->                             
+                <button type="button" class="btn btn-info"><i class="fa fa-eraser" aria-hidden="true"></i>{{ 'btn.borrar' | translate }} </button>
             </div>
           </th>
 
@@ -29,10 +29,15 @@
             <div class="card bg-light text-dark mb-4">
             <div class="button-box">
                 <div class="btn-group-vertical" style="align-items: stretch;">
-                    <button type="button" class="btn btn-secondary"><i class="fas fa-redo-alt"></i> Refrescar</button>
-                    <button type="submit" [disabled]="form.invalid" class="btn btn-secondary"><i class="fas fa-check-square"></i> Aceptar</button>
-                    <button type="button" class="btn btn-secondary"><i class="fas fa-window-close"></i> Cancelar</button>
-                    <button type="button" class="btn btn-secondary"><i class="fas fa-broom"></i> Borrar Texto</button>
+                                                                                                 <!-- //// Boton Refescar/// --> 
+                    <button type="button" class="btn btn-secondary"><i class="fas fa-redo-alt"></i> {{ 'btn.btn1' | translate }}</button>
+                                                                                                 <!-- //// Boton Acepatr/// -->    
+                     <button type="submit" [disabled]="form.invalid" class="btn btn-secondary"><i class="fas fa-check-square"></i>   {{ 'btn.btn2' | translate }}</button>
+                                                                                                <!-- //// Boton Cncelar/// -->    
+
+                    <button type="button" class="btn btn-secondary"><i class="fas fa-window-close"></i>  {{ 'btn.btn3' | translate }}</button>
+                                                                                                <!-- //// Boton Borrar texto/// --> 
+                    <button type="button" class="btn btn-secondary"><i class="fas fa-broom"></i> {{ 'btn.btn4' | translate }}</button>
                 </div>
             </div>
             </div>
@@ -41,24 +46,26 @@
           <th>
             <!-- //// INPUT PANELS /// -->
             <div class="card bg-light text-dark mb-4 large-box">
-                <div class="card-body font-weight-bold">Solo Busqueda</div>
-
+              <!-- ////Subtitulo Solo busqueda/// --> 
+                <div class="card-body font-weight-bold">{{ 'Ramas.Busqueda' | translate }}</div>
+            
                 <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text font-weight-semibold" id="basic-addon1">Codigo: </span>
+                    <div class="input-group-prepend">                                        <!-- //// Imput Codigo/// --> 
+                      <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'imput.imput1' | translate }} </span>
                     </div>
                     <input type="text" class="form-control" placeholder="" aria-label="branchCode">
                 </div>
 
                 <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text font-weight-semibold" id="basic-addon1">Nombre: </span>
+                    <div class="input-group-prepend">                                         <!-- //// Imput Nombre/// --> 
+                      <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'imput.imput2' | translate }}</span>
                     </div>
                     <input type="text" class="form-control" placeholder="" aria-label="branchCode">
                 </div>
-                <div style="width: 100%;">
-                <button type="button" class="btn btn-info" style="width: 50%;"><i class="fas fa-plus-square"></i> Agregar </button>
-                <button type="button" class="btn btn-info" style="width: 50%;"><i class="fas fa-minus-square"></i> Eliminar </button>
+                <div style="width: 100%;">                                                                       <!-- //// Boton agregar/// --> 
+                <button type="button" class="btn btn-info" style="width: 50%;"><i class="fas fa-plus-square"></i>  {{'btn.agregar' | translate }} </button>
+                                                                                                                                 <!-- ////Boton eliminar/// -->
+                <button type="button" class="btn btn-info" style="width: 50%;"><i class="fas fa-minus-square"></i> {{'btn.eliminar' | translate }} </button>
                 </div>
             </div>
           </th>
@@ -67,6 +74,8 @@
   </form>
 </div>
 
+
 <div class="card mb-4">
-    <div class="card-body">Descripcion de Ejemplo. Tabla generada con DataTables plugin. <a target="_blank" href="https://datatables.net/">Official DataTables documentation</a>.</div>
+  <!-- //// Descripcion de tabla/// --> 
+ <div class="card-body"> {{ 'Descripcion.Des1' | translate }} <a target="_blank" href="https://datatables.net/"> {{ 'Descripcion.Des2' | translate }}</a>.</div>
 </div>

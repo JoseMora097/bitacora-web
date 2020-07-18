@@ -1,1 +1,52 @@
-<p>Esta es la pagina para el cambio de idioma!</p>
+<main>
+    <title>{{ 'tablero.biapp' | translate }}</title>
+     <div class="container-fluid">
+      
+    <router-outlet></router-outlet>
+ 
+         <h1 class="mt-4"></h1>
+         <h4>{{ 'test.intro' | translate }}</h4>
+         <br>
+         <ol class="breadcrumb mb-4">
+             <li class="breadcrumb-item"><p>{{ 'test.alojamiento'| translate }} </p></li>
+         </ol>
+         <ol class="breadcrumb mb-4">
+             <li class="breadcrumb-item"><p> {{ 'test.menu1'| translate }} .
+                 <br>
+                 <br> {{ 'test.menu2'| translate }} </p></li>
+         </ol>
+         <ol class="breadcrumb mb-4">
+             <li class="breadcrumb-item"><p>{{ 'test.modulo'| translate }}</p></li>
+        
+           </ol> 
+           <ol class="breadcrumb mb-4">
+             <li class="breadcrumb-item"><p>{{ 'test.TEXT1'| translate }}</p></li>
+        
+           </ol> 
+           <ol class="breadcrumb mb-4">
+             <li class="breadcrumb-item"><p>{{ 'test.TEXT2'| translate }}</p></li>
+        
+           </ol> 
+           <label>
+           
+             <div class="card bg-light text-dark mb-4 flex-box">
+                 <div class="input-group mb-3">
+                     
+                     
+                     <div class="input-group-prepend">                                               <!-- ////MENSAJE DE SELECCIONAR EL BOTON/// -->
+                         <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'test.CLCIK'| translate }} </span>
+                       </div>
+                     <label>
+                       <select class="form-control" #langSelect (change)="changeLang(langSelect.value)">
+                         <option *ngFor="let lang of langs" [value]="lang">
+                           {{ lang }}
+                         </option>
+                      
+                       </select>
+                      
+                     </label>
+                     <div class="input-group-prepend">                                                  <!-- ////IDIOMA ACTUAL:/// -->
+                         <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'TRA'| translate }}</span>
+                       </div>
+                 </div>
+      

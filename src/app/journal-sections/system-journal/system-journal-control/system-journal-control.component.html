@@ -4,48 +4,53 @@
           <th>
             <!-- //// INPUT PANELS /// -->
             <div class="card bg-light text-dark mb-4 medium-box" style="width: 600px;">
-                
-                <div class="card-header font-weight-bold">Informacion de la Bitacora</div>
-                <br>
-                <div class="font-weight-semibold" style="text-align: center;">
-                    <input type="radio" id="dewey" name="drone" value="dewey">
-                    <label for="dewey">Consulta por rango de fecha</label>
-                    <input type="radio" id="dewey" name="drone" value="dewey">
-                    <label for="dewey">Consulta General</label>
-                    <input type="radio" id="dewey" name="drone" value="dewey">
-                    <label for="dewey">Consulta por Usuario</label>
-                </div>
+              <!-- //// Informacion de la Bitacora/// -->
+<div class="card-header font-weight-bold">{{ 'Bitacora.Informacion_de_la_Bitacora' | translate }}</div>
+<br>
+<div class="font-weight-semibold" style="text-align: center;">
+<input type="radio" id="dewey" name="drone" value="dewey">
+<!-- //// Consulta por rango de fecha/// -->
+<label for="dewey">{{ 'Bitacora.Consulta_por_rango_de_fecha' | translate }}</label>
+<br>
+<input type="radio" id="dewey" name="drone" value="dewey">
+<!-- //// Consulta General/// -->
+<label for="dewey">{{ 'Bitacora.Consulta_General' | translate }}</label>
+<br>
+<input type="radio" id="dewey" name="drone" value="dewey">
+<!-- //// Consulta por Usuario/// -->
+<label for="dewey">{{ 'Bitacora.Consulta_por_Usuario' | translate }}</label>
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">                                 <!-- //// Fecha Inicial:/// -->
+    <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Bitacora.Fecha_Inicial' | translate }} </span>
+  </div>
+  <input type="text" class="form-control" placeholder="" aria-label="branchCode">
+  <div class="input-group-prepend">                                     <!-- ////Fecha Final/// -->
+      <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Bitacora.Fecha_Final' | translate }}  </span>
+    </div>
+    <input type="text" class="form-control" placeholder="" aria-label="branchCode">
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">                                   <!-- ////Usuario:/// -->
+    <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Bitacora.Usuario' | translate }} </span>
+  </div>
+  <input type="text" class="form-control" placeholder="" aria-label="branchCode">
+</div>
+</div>
+</th>
 
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text font-weight-semibold" id="basic-addon1">Fecha Inicial: </span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text font-weight-semibold" id="basic-addon1">Fecha Final: </span>
-                      </div>
-                      <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                </div>
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text font-weight-semibold" id="basic-addon1">Usuario: </span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                </div>
-            </div>
-          </th>
-
-          <!-- //// TOOLBAR /// -->
-          <th>
-            <div class="card bg-light text-dark mb-4">
-            <div class="button-box">
-                <div class="btn-group-vertical" style="align-items: stretch;">
-                    <button type="button" class="btn btn-secondary"><i class="fas fa-check-square"></i> Aceptar</button>
-                    <button type="button" class="btn btn-secondary"><i class="fas fa-window-close"></i> Cancelar</button>
-                </div>
-            </div>
-            </div>
-          </th>
-        </tr>
-      </table>
+<!-- //// TOOLBAR /// -->
+<th>
+<div class="card bg-light text-dark mb-4">
+<div class="button-box">
+<div class="btn-group-vertical" style="align-items: stretch;">                                            <!-- ////Boton aceptar/// -->
+  <button type="button" class="btn btn-secondary"><i class="fas fa-check-square"></i> {{ 'Bitacora.Aceptar' | translate }} </button>
+                                                                                                  <!-- ////Boton cancelae:/// -->
+  <button type="button" class="btn btn-secondary"><i class="fas fa-window-close"></i> {{ 'Bitacora.Cancelar' | translate }} </button>
+</div>
+</div>
+</div>
+</th>
+</tr>
+</table>
 </div>

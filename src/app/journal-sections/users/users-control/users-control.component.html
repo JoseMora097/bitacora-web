@@ -7,203 +7,215 @@
                         <tr>
                             <td>
                                 <!-- //// TOOLBAR /// -->
-                                <div class="card bg-light text-dark mb-4">
-                                    <div class="largeButton-box">
-                                        <div class="btn-group-vertical" style="align-items: stretch;">
-                                            <button type="button" class="btn btn-secondary"><i class="fas fa-redo-alt"></i> Refrescar</button>
-                                            <button type="button" class="btn btn-secondary"><i class="fas fa-check-square"></i> Aceptar</button>
-                                            <button type="button" class="btn btn-secondary"><i class="fas fa-window-close"></i> Cancelar</button>
-                                            <button type="button" class="btn btn-secondary"><i class="fas fa-broom"></i> Borrar Texto</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td>
+                                 <!-- //// TOOLBAR /// -->
+                                 <div class="card bg-light text-dark mb-4">
+                                  <div class="largeButton-box">
+                                      <div class="btn-group-vertical" style="align-items: stretch;">                          <!-- //// Boton de Refrescar// -->  
+                                          <button type="button" class="btn btn-secondary"><i class="fas fa-redo-alt"></i> {{ 'btn.btn1' | translate }}</button>
+                                                                                                                                  <!-- ////Boton de Aceptar /// -->                           
+                                          <button type="button" class="btn btn-secondary"><i class="fas fa-check-square"></i> {{ 'btn.btn2' | translate }}</button>
+                                                                                                                                 <!-- //// Boton de Cancelar // --> 
+                                         <button type="button" class="btn btn-secondary"><i class="fas fa-window-close"></i> {{ 'btn.btn3' | translate }}</button>
+                                                                                                                                <!-- ////Boton de Borrar Texto/// --> 
+                                          <button type="button" class="btn btn-secondary"><i class="fas fa-broom"></i>{{ 'btn.btn4' | translate }}</button>
+                                      </div>
+                                  </div>
+                              </div>
+                          </td>
+                          <td>
+                                <!-- //// INPUT PANELS /// -->
                                 <!-- //// INPUT PANELS /// -->
                                 <div class="card bg-light text-dark mb-4 flex-box" style="height: 370px; width: 500px;"> 
-                                    <div class="card-body font-weight-bold">Datos del Usuario Investigador</div>
-    
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Codigo: </span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                                    </div>
-    
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Nombre: </span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                                    </div>
+                                  <!-- ////Datos del Usuario Investigador/// --> 
+<div class="card-body font-weight-bold">  {{ 'Usuario.Dastos_usuario_investigador' | translate }}</div>
 
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Primer Apellido: </span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                                    </div>
+<div class="input-group mb-3">
+<div class="input-group-prepend">                                              <!-- ////imput Codigo:/// --> 
+<span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'imput.imput1' | translate }}</span>
+</div>
+<input type="text" class="form-control" placeholder="" aria-label="branchCode">
+</div>
 
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Segundo Apellido: </span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                                    </div>
+<div class="input-group mb-3">
+<div class="input-group-prepend">                                               <!-- ////imput Codigo:/// --> 
+<span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'imput.imput2' | translate }}  </span>
+</div>
+<input type="text" class="form-control" placeholder="" aria-label="branchCode">
+</div>
 
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Telefono: </span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="506-2XXX-XXXX" aria-label="branchCode">
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <div class="card bg-light text-dark mb-4 flex-box">
-                    <div class="card-body font-weight-bold">Datos Tecnicos del Usuario</div>
+<div class="input-group mb-3">
+<div class="input-group-prepend">                                            <!-- ////Primer Apellido:/// --> 
+<span class="input-group-text font-weight-semibold" id="basic-addon1">  {{ 'Usuario.Primer_Apellido' | translate }} </span>
+</div>
+<input type="text" class="form-control" placeholder="" aria-label="branchCode">
+</div>
 
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Login: </span>
-                        </div>
-                        <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                    </div>
+<div class="input-group mb-3">
+<div class="input-group-prepend">                                           <!-- ////Segundo Apellido:/// --> 
+<span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Usuario.Segundo_Apellido' | translate }} </span>
+</div>
+<input type="text" class="form-control" placeholder="" aria-label="branchCode">
+</div>
 
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Contrasena: </span>
-                        </div>
-                        <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                    </div>
-
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Confirmar Contrasena: </span>
-                        </div>
-                        <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                    </div>
-
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text font-weight-semibold" id="basic-addon1">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                            </div>
-                            Cambio de Contrasena
-                          </span>
-                        </div>
-                    </div>
-
-                    <div style="width: 100%;">
-                        <button type="button" class="btn btn-info" style="width: 50%;"><i class="fas fa-save"></i> Guardar Cambios </button>
-                        <button type="button" class="btn btn-info" style="width: 50%;"><i class="fas fa-broom"></i> Limpiar </button>
-                        </div>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <td>
-
-                <div class="card bg-light text-dark mb-4 flex-box">
-                    <div class="card-body font-weight-bold">Privilegios para el Control del Sistema</div>
-
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text font-weight-semibold" id="basic-addon1">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                            </div>
-                            Administrador del Sistema
-                          </span>
-                        </div>
-                    </div>
-
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text font-weight-semibold" id="basic-addon1">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                            </div>
-                            Administrador de Seguridad
-                          </span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="card bg-light text-dark mb-4 flex-box">
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Nivel Academico: </span>
-                        </div>
-                        <select class="form-control">
-                            <option>Ingenieria en Sistemas</option>
-                          </select>
-                        <div class="input-group-prepend">
-                            <span class="input-group-text font-weight-semibold" id="basic-addon1">Puesto: </span>
-                          </div>
-                          <select class="form-control">
-                            <option>Director de Laboratorio</option>
-                          </select>
-                    </div>
-
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Cargar Firma: </span>
-                        </div>
-                        <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                        <button type="button" class="btn btn-info"><i class="fas fa-search"></i></button>
-                    </div>
-
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Cargar Foto: </span>
-                        </div>
-                        <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                        <button type="button" class="btn btn-info"><i class="fas fa-search"></i></button>
-                    </div>
-                </div>
-
-                <table>
-                    <tbody>
-                      <tr>
-                      <td>
-                          <div class="card" style="width: 15rem;">
-                              <img src="assets/img/thumbnail.svg" alt="..." class="img-thumbnail">
-                              <div class="card-body">
-                                <p class="card-text">Firma Cargada.</p>
-                              </div>
-                          </div>
-                      </td>
-                      <td>
-                          <div class="card" style="width: 15rem;">
-                              <img src="assets/img/thumbnail.svg" alt="..." class="img-thumbnail">
-                              <div class="card-body">
-                                <p class="card-text">Foto Cargada.</p>
-                              </div>
-                          </div>
-                      </td>
-                      <td>
-                        <div class="card bg-light text-dark mb-4">
-                            <div class="btn-group-vertical largeButton-box" style="width: 100px; height: 50px;">
-                                
-                                    <button type="button" class="btn btn-secondary"><i class="fas fa-plus-square"></i> Agregar</button>
-                                    <button type="button" class="btn btn-secondary"><i class="fas fa-minus-square"></i> Eliminar</button>
-                                
-                            </div>
-                        </div>  
-                      </td>
-                      </tr>
-                    </tbody>
-                  </table>
-
-            </td>
-        </tr>
-    </tbody>
+<div class="input-group mb-3">
+<div class="input-group-prepend">                                         <!-- ////Segundo Apellido:/// --> 
+<span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Usuario.Telefono' | translate }} </span>
+</div>
+<input type="text" class="form-control" placeholder="506-2XXX-XXXX" aria-label="branchCode">
+</div>
+</div>
+</td>
+</tr>
+</tbody>
 </table>
+</td>
+</tr>
+<tr>
+  <td>
+      <div class="card bg-light text-dark mb-4 flex-box"><!-- ////Datos Tecnicos del Usuario/// --> 
+          <div class="card-body font-weight-bold">{{ 'Usuario.Dastos_usuario' | translate }}</div>
+
+          <div class="input-group mb-3">
+              <div class="input-group-prepend">                                      <!-- ////niciar sesión:/// --> 
+                <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Usuario.Iniciar_sesión' | translate }} </span>
+              </div>
+              <input type="text" class="form-control" placeholder="" aria-label="branchCode">
+          </div>
+
+          <div class="input-group mb-3">
+              <div class="input-group-prepend">                                         <!-- ////Contrasena:/// --> 
+                <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Usuario.Contrasena' | translate }}</span>
+              </div>
+              <input type="text" class="form-control" placeholder="" aria-label="branchCode">
+          </div>
+
+          <div class="input-group mb-3">
+              <div class="input-group-prepend">                                          <!-- ////Confirmar Contrasena:/// --> 
+                <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Usuario.Confirmar_Contrasena' | translate }}</span>
+              </div>
+              <input type="text" class="form-control" placeholder="" aria-label="branchCode">
+          </div>
+
+          <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text font-weight-semibold" id="basic-addon1">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  </div>    <!-- ////Cambio de Contrasena:/// -->
+                  {{ 'Usuario.Cambio_de_Contrasena' | translate }}
+                </span>
+              </div>
+          </div>
+
+          <div style="width: 100%;">                                                                      <!-- ////Boton Guardar/// -->
+              <button type="button" class="btn btn-info" style="width: 50%;"><i class="fas fa-save"></i>  {{ 'Usuario.Guardar' | translate }}</button>
+                                                                                                           <!-- ////Boton Limpiar/// -->
+              <button type="button" class="btn btn-info" style="width: 50%;"><i class="fas fa-broom"></i> {{ 'Usuario.Limpiar' | translate }}</button>
+              </div>
+      </div>
+  </td>
+</tr>
+
+<tr>
+  <td>
+
+      <div class="card bg-light text-dark mb-4 flex-box">     <!-- ////Privilegios para el Control del Sistema:/// -->
+          <div class="card-body font-weight-bold">{{ 'Usuario.Privilegios_control' | translate }}</div>
+
+          <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text font-weight-semibold" id="basic-addon1">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  </div>
+                  <!-- ////Administrador del Sistema:/// -->
+                  {{ 'Usuario.Administrador_del_Sistema' | translate }}
+                </span>
+              </div>
+          </div>
+
+          <div class="input-group mb-3">
+              <div class="input-group-prepend">
+                <span class="input-group-text font-weight-semibold" id="basic-addon1">
+                  <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                  </div>
+                   <!-- ////Administrador de Seguridad/// -->
+                  {{ 'Usuario.Administrador_de_Seguridad' | translate }}
+                </span>
+              </div>
+          </div>
+      </div>
+
+      <div class="card bg-light text-dark mb-4 flex-box">
+          <div class="input-group mb-3">
+              <div class="input-group-prepend">                                                  <!-- ////Nivel Academico:/// -->
+                <span class="input-group-text font-weight-semibold" id="basic-addon1"> {{ 'Usuario.Nivel_Academico' | translate }}</span>
+              </div>
+              <select class="form-control">
+                  <option>Ingenieria en Sistemas</option>
+                </select>
+              <div class="input-group-prepend">                                               <!-- ////Nivel Academico:/// -->
+                  <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Usuario.Puesto' | translate }} </span>
+                </div>
+                <select class="form-control">
+                  <option>Director de Laboratorio</option>
+                </select>
+          </div>
+
+          <div class="input-group mb-3">
+              <div class="input-group-prepend">                                             <!-- ////FIRMA/// -->
+                <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Usuario.Cargar_Firma' | translate }} </span>
+              </div>
+              <input type="text" class="form-control" placeholder="" aria-label="branchCode">
+              <button type="button" class="btn btn-info"><i class="fas fa-search"></i></button>
+          </div>
+
+          <div class="input-group mb-3">
+              <div class="input-group-prepend">                                           <!-- ////cargar foto/// -->
+                <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Usuario.Cargar_Foto' | translate }}  </span>
+              </div>
+              <input type="text" class="form-control" placeholder="" aria-label="branchCode">
+              <button type="button" class="btn btn-info"><i class="fas fa-search"></i></button>
+          </div>
+      </div>
+
+      <table>
+          <tbody>
+            <tr>
+            <td>
+                <div class="card" style="width: 15rem;">
+                    <img src="assets/img/thumbnail.svg" alt="..." class="img-thumbnail">
+                    <div class="card-body">
+                      <p class="card-text">Firma Cargada.</p>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="card" style="width: 15rem;">
+                    <img src="assets/img/thumbnail.svg" alt="..." class="img-thumbnail">
+                    <div class="card-body">
+                      <p class="card-text">Foto Cargada.</p>
+                    </div>
+                </div>
+            </td>
+            <td>
+              <div class="card bg-light text-dark mb-4">
+                  <div class="btn-group-vertical largeButton-box" style="width: 100px; height: 50px;">
+                                                                                                                <!-- ////Boton agrgar /// -->
+                          <button type="button" class="btn btn-secondary"><i class="fas fa-plus-square"></i> {{ 'Usuario.Agregar' | translate }} </button>
+                                                                                                           <!-- ////Boton eliminar /// --> 
+                          <button type="button" class="btn btn-secondary"><i class="fas fa-minus-square"></i> {{ 'Usuario.Eliminar' | translate }} </button>
+                      
+                  </div>
+              </div>  
+            </td>
+            </tr>
+          </tbody>
+        </table>
+
+  </td>
+</tr>
+</tbody>
+</table>
+

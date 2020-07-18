@@ -1,4 +1,5 @@
 <mat-sidenav-container class="sidenav-container sb-nav-fixed">
+  <title>{{ 'tablero.biapp' | translate }}</title>
   <mat-sidenav
     #drawer
     class="sidenav navbar-dark bg-dark"
@@ -6,23 +7,25 @@
     [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
     [mode]="(isHandset$ | async) ? 'over' : 'side'"
     [opened]="!(isHandset$ | async)">
-    <mat-toolbar class="text-white" style="background-color: black;">Bitacora Cientifica</mat-toolbar>
+    <mat-toolbar class="text-white" style="background-color: black;">{{ 'tablero.bitacora' | translate }}</mat-toolbar>
     <mat-nav-list class="bg-dark" style="font-weight: semi-bold;">
-      <a mat-list-item class="text-white" routerLink="/test-page" routerLinkActive="active">Test Component</a>
-      <a mat-list-item class="text-white" routerLink="/projects" routerLinkActive="active">Proyectos</a>
-      <a mat-list-item class="text-white" routerLink="/branches" routerLinkActive="active">Ramas Cientificas</a>
-      <a mat-list-item class="text-white" routerLink="/categories" routerLinkActive="active">Tipos</a>
-      <a mat-list-item class="text-white" routerLink="/categories-detail" routerLinkActive="active">Consecutivos</a>
-      <a mat-list-item class="text-white" routerLink="/roles" routerLinkActive="active">Roles</a>
-      <a mat-list-item class="text-white" routerLink="/posts" routerLinkActive="active">Puestos</a>
-      <a mat-list-item class="text-white" routerLink="/education" routerLinkActive="active">Educacion</a>
-      <a mat-list-item class="text-white" routerLink="/users" routerLinkActive="active">Usuarios</a>
-      <a mat-list-item class="text-white" routerLink="/system-journal" routerLinkActive="active">Bitacora</a>
-      <a mat-list-item class="text-white" routerLink="/experiments-journal" routerLinkActive="active">Bitacora Experimental</a>
-      <a mat-list-item class="text-white" routerLink="/error-log" routerLinkActive="active">Errores</a>
-      <a mat-list-item class="text-white" routerLink="/" routerLinkActive="active">Seguridad</a>
-      <a mat-list-item class="text-white" routerLink="/client-search" routerLinkActive="active">Buscador</a>
-      <a mat-list-item class="text-white" routerLink="/cart" routerLinkActive="active">Carrito</a>
+     
+      <a mat-list-item class="text-white" routerLink="/projects" routerLinkActive="active"> {{ 'tablero.Proyectos' | translate }}</a>
+      <a mat-list-item class="text-white" routerLink="/branches" routerLinkActive="active">{{ 'tablero.Ramas_Cientificas' | translate }}</a>
+      <a mat-list-item class="text-white" routerLink="/categories" routerLinkActive="active"> {{ 'tablero.Tipos' | translate }}</a>
+      <a mat-list-item class="text-white" routerLink="/categories-detail" routerLinkActive="active">{{ 'tablero.Consecutivos' | translate }}</a>
+      <a mat-list-item class="text-white" routerLink="/roles" routerLinkActive="active">{{ 'tablero.Roles' | translate }}</a>
+      <a mat-list-item class="text-white" routerLink="/posts" routerLinkActive="active">{{ 'tablero.Puestos' | translate }}</a>
+      <a mat-list-item class="text-white" routerLink="/education" routerLinkActive="active">{{ 'tablero.Educacion' | translate }}</a>
+      <a mat-list-item class="text-white" routerLink="/users" routerLinkActive="active">{{ 'tablero.Usuarios' | translate }}</a>
+      <a mat-list-item class="text-white" routerLink="/system-journal" routerLinkActive="active">{{ 'tablero.Bitacora' | translate }}</a>
+      <a mat-list-item class="text-white" routerLink="/experiments-journal" routerLinkActive="active">{{ 'tablero.Bitacora_Experimental' | translate }}</a>
+      <a mat-list-item class="text-white" routerLink="/error-log" routerLinkActive="active">{{ 'tablero.Errores' | translate }}</a>
+
+      <a mat-list-item class="text-white" routerLink="/client-search" routerLinkActive="active">{{ 'tablero.Buscador' | translate }}</a>
+      <a mat-list-item class="text-white" routerLink="/cart" routerLinkActive="active">{{ 'tablero.Carrito' | translate }}</a>
+      <a mat-list-item class="text-white" routerLink="/checkout" routerLinkActive="active">{{ 'revicion.checkout' | translate }}</a>
+      <a mat-list-item class="text-white" routerLink="/test-page" routerLinkActive="active">{{ 'tablero.test' | translate }}</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -33,15 +36,16 @@
         mat-icon-button
         (click)="drawer.toggle()"
         *ngIf="isHandset$ | async">
-        <mat-icon aria-label="Side nav toggle icon">Menu</mat-icon>
+        <mat-icon aria-label="Side nav toggle icon">{{ 'dashboard .Menu' | translate }}</mat-icon>
       </button>
       
       <div class="dropdown">
         <button onclick="myFunction()" class="dropbtn nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false"><i class="fas fa-user fa-fw"></i></button>
         <div id="myDropdown" class="dropdown-content">
-          <a routerLink="/" routerLinkActive="active">Ayuda</a>
-          <a routerLink="/change-language" routerLinkActive="active">Cambiar Idioma</a>
-          <a routerLink="/login" routerLinkActive="active" >Cerrar Sesion</a>
+          <a routerLink="/" routerLinkActive="active">{{ 'dashboard.Ayuda' | translate }}</a>
+          <a routerLink="/change-language" routerLinkActive="active">{{ 'dashboard.Cambiar_idioma' | translate }}</a>
+          <a routerLink="/login" routerLinkActive="active" >{{ 'dashboard.Cerrar_sesion' | translate }}</a>
+          <a routerLink="/login" routerLinkActive="active" >{{ 'login.Inicio_de_Sesion' | translate }}</a>
         </div>
       </div>
     </mat-toolbar>

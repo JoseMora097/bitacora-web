@@ -63,6 +63,22 @@ import { UsersService } from './journal-sections/users/shared/users.service';
 import { ClientSearchControlComponent } from './client-front/client-search/client-search-control/client-search-control.component';
 import { ClientSearchTableComponent } from './client-front/client-search/client-search-table/client-search-table.component';
 
+
+
+
+import { HttpClient } from '@angular/common/http';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { ProfileComponent } from './profile/profile.component';
+
+
+
+
+export function createTranslateLoader(http: HttpClient) {
+  return new TranslateHttpLoader(http, './assets/i18n/', '.json');
+}
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -108,7 +124,9 @@ import { ClientSearchTableComponent } from './client-front/client-search/client-
     UsersControlComponent,
     UsersTableComponent,
     ClientSearchControlComponent,
-    ClientSearchTableComponent
+    ClientSearchTableComponent,
+    NavBarComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
@@ -121,7 +139,14 @@ import { ClientSearchTableComponent } from './client-front/client-search/client-
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    HttpClientModule
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+          provide: TranslateLoader,
+          useFactory: (createTranslateLoader),
+          deps: [HttpClient]
+      }
+  })
   ],
   providers: [
     BranchesService,

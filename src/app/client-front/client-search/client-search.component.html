@@ -1,18 +1,19 @@
 <main>
     <div class="container-fluid">
-        <h1 class="mt-4">Busqueda</h1>
+        <h1 class="mt-4">{{ 'Busqueda.titulo' | translate }}</h1><!-- //// Busqueda /// -->
         <ol class="breadcrumb mb-4">
-            <li class="breadcrumb-item"><a href="index.html">Portal de Cliente</a></li>
-            <li class="breadcrumb-item active">Busqueda</li>
+            <li class="breadcrumb-item"><a href="index.html">{{ 'Busqueda.sub1' | translate }}</a></li>
+            <li class="breadcrumb-item active">{{ 'Busqueda.sub2' | translate }}</li>
         </ol>
 
         <!-- //// CONTROL DASHBOARD: OVERFLOW DIV ALLOWS FOR SCROLL BARS WHEN NEEDED /// -->
         <app-client-search-control></app-client-search-control>
 
-        <div class="card mb-4">
-            <div class="card-body">Descripcion de Ejemplo. Tabla generada con DataTables plugin. <a target="_blank" href="https://datatables.net/">Official DataTables documentation</a>.</div>
-        </div>
-
+       
+        <div class="card mb-4">   <!-- //// Descripcion de tabla/// --> 
+            <div class="card-body"> {{ 'Descripcion.Des1' | translate }} <a target="_blank" href="https://datatables.net/"> {{ 'Descripcion.Des2' | translate }}</a>.</div></div>
+            
+            
         <!-- //// CONTENT DISPLAY /// -->
         <app-client-search-table></app-client-search-table>
 
@@ -24,11 +25,15 @@
 <footer class="py-4 bg-light mt-auto">
     <div class="container-fluid">
         <div class="d-flex align-items-center justify-content-between small">
-            <div class="text-muted">Bitácora Científica ~ Servicios Web 2020</div>
+            <div class="text-muted">{{ 'bitacora.bi' | translate }}</div>                                                                                                             <!-- //// Impit del nombre /// -->     
+            <!-- //// texto al final de la pagna/// -->          
+         
             <div>
-                <a href="help.html">Ayuda</a>
+                <a href="help.html">{{ 'ayuda.ayuda' | translate }}</a>                                                                                                             <!-- //// Impit del nombre /// -->     
+                <!-- ////ayuda/// -->          
+          
+
                 &middot;
-                <a href="languaje.html">Cambiar Idioma</a>
             </div>
         </div>
     </div>

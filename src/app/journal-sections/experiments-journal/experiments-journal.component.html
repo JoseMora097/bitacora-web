@@ -1,11 +1,13 @@
 <main>
+    <title>{{ 'tablero.biapp' | translate }}</title>
     <div class="container-fluid">
-        <h1 class="mt-4">Bitacora Experimental</h1>
+        <h1 class="mt-4">{{ 'Bitacora_Experimental.titulo' | translate }} </h1> <!-- //// Bitacora Experimental/// -->
         <ol class="breadcrumb mb-4" style="width: 100%;">
-            <li class="breadcrumb-item"><a href="index.html">Principal</a></li>
-            <li class="breadcrumb-item active">Bitacora Experimental</li>
+                                                                        <!-- //// Bitacora principal/// -->
+            <li class="breadcrumb-item"><a href="index.html">{{ 'Bitacora_Experimental.sub1' | translate }} </a></li>
+                                                      <!-- //// Bitacora Experimental/// -->
+            <li class="breadcrumb-item active">{{ 'Bitacora_Experimental.sub2' | translate }} </li>
         </ol>
-
         <!-- //// CONTROL DASHBOARD: OVERFLOW DIV ALLOWS FOR SCROLL BARS WHEN NEEDED /// -->
         <div id="standardDiv">
             <table>
@@ -35,11 +37,15 @@
 <footer class="py-4 bg-light mt-auto">
     <div class="container-fluid">
         <div class="d-flex align-items-center justify-content-between small">
-            <div class="text-muted">Bitácora Científica ~ Servicios Web 2020</div>
+            <div class="text-muted">{{ 'bitacora.bi' | translate }}</div>                                                                                                             <!-- //// Impit del nombre /// -->     
+            <!-- //// texto al final de la pagna/// -->          
+         
             <div>
-                <a href="help.html">Ayuda</a>
+                <a href="help.html">{{ 'ayuda.ayuda' | translate }}</a>                                                                                                             <!-- //// Impit del nombre /// -->     
+                <!-- ////ayuda/// -->          
+          
+
                 &middot;
-                <a href="languaje.html">Cambiar Idioma</a>
             </div>
         </div>
     </div>

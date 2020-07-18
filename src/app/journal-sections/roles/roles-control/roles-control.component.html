@@ -12,32 +12,35 @@
                             <td>
                                 <!-- //// INPUT PANELS /// -->
                                 <div class="card bg-light text-dark mb-4 flex-box">
-                                    <div class="card-body font-weight-bold">Informacion de los Roles</div>
-    
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Codigo de Rol: </span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                                    </div>
+                                    <!-- //// Informacion de los Roles// --> 
+<div class="card-body font-weight-bold">{{ 'Roles.Info_de_los_Roles' | translate }}</div>
 
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Nombre: </span>
-                                        </div>
-                                        <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                                    </div>
-    
-                                    <div class="input-group mb-3">
-                                        <div class="input-group-prepend">
-                                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Detalle: </span>
-                                        </div>
-                                        <textarea class="form-control" rows="3" id="description"></textarea>
-                                        <br><br><br><br><br><br>
-                                    </div>
+<div class="input-group mb-3">
+<div class="input-group-prepend">                                            <!-- //// Codigo de Rol:// --> 
+  <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Roles.Codigo_de_Rol' | translate }} </span>
+</div>
+<input type="text" class="form-control" placeholder="" aria-label="branchCode">
+</div>
 
-                                    <button type="button" class="btn btn-info" style="width: 100%;"><i class="fas fa-broom"></i> Limpiar </button>
-                                </div>
+<div class="input-group mb-3">
+<div class="input-group-prepend">                                             <!-- //// Nombre:// --> 
+  <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Roles.Nombre' | translate }}  </span>
+</div>
+<input type="text" class="form-control" placeholder="" aria-label="branchCode">
+</div>
+
+<div class="input-group mb-3">
+<div class="input-group-prepend">                                         <!-- //// Detalle:// -->                                           
+  <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Roles.Detalle' | translate }} </span>
+</div>
+<textarea class="form-control" rows="3" id="description"></textarea>
+<br><br><br><br><br><br>
+</div>
+
+
+                                                                                   <!-- //// Boton de Limpiar// -->   
+<button type="button" class="btn btn-info" style="width: 100%;"><i class="fas fa-broom"></i> {{ 'btn.Limpiar' | translate }} </button>
+</div>
                             </td>
                         </tr>
                     </tbody>
@@ -49,31 +52,37 @@
                 <div class="card bg-light text-dark mb-4 flex-box">
                     <div class="button-box flex-box">
                         <div class="btn-group-vertical" style="width: 100%;">
-                            <button type="button" class="btn btn-secondary"><i class="fas fa-plus-square"></i> Agregar </button>
-                            <button type="button" class="btn btn-secondary"><i class="fas fa-minus-square"></i> Eliminar </button>
-                            <button type="button" class="btn btn-secondary"><i class="fas fa-redo-alt"></i> Refrescar</button>
-                            <button type="button" class="btn btn-secondary"><i class="fas fa-check-square"></i> Aceptar</button>
-                            <button type="button" class="btn btn-secondary"><i class="fas fa-window-close"></i> Cancelar</button>
-                            <button type="button" class="btn btn-secondary"><i class="fas fa-broom"></i> Borrar Texto</button>
+                                                                                                                    <!-- //// Boton de agregar// -->  
+                                                                                                                    <button type="button" class="btn btn-secondary"><i class="fas fa-plus-square"></i> {{ 'btn.agregar' | translate }} </button>
+                                                                                                                    <!-- //// Boton de eliminar// -->  
+                               <button type="button" class="btn btn-secondary"><i class="fas fa-minus-square"></i> {{ 'btn.eliminar' | translate }} </button>
+                                                                                                                     <!-- //// Boton de Refrescar// -->  
+                               <button type="button" class="btn btn-secondary"><i class="fas fa-redo-alt"></i> {{ 'btn.btn1' | translate }}</button>
+                                                                                                                    <!-- ////Boton de Aceptar /// -->  
+                               <button type="button" class="btn btn-secondary"><i class="fas fa-check-square"></i> {{ 'btn.btn2' | translate }}</button>
+                                                                                                                    <!-- //// Boton de Cancelar // --> 
+                               <button type="button" class="btn btn-secondary"><i class="fas fa-window-close"></i> {{ 'btn.btn3' | translate }}</button>
+                                                                                                                      <!-- ////Boton de Borrar Texto/// --> 
+                               <button type="button" class="btn btn-secondary"><i class="fas fa-broom"></i>{{ 'btn.btn4' | translate }}</button>
+                          </div>
+                    </div>
+                    </div>
+                    <div class="card bg-light text-dark mb-4 flex-box"> <!-- ////Solo Busqueda/// --> 
+                        <div class="card-body font-weight-bold">{{ 'Roles.Busqueda' | translate }}</div>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                                                                                      <!-- ////imput Codigo:/// --> 
+                              <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'imput.imput1' | translate }}</span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="" aria-label="branchCode">
                         </div>
-                    </div>
-                    </div>
 
-                <div class="card bg-light text-dark mb-4 flex-box">
-                    <div class="card-body font-weight-bold">Solo Busqueda</div>
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Codigo: </span>
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">                                        <!-- ////imput Nombre/// --> 
+                              <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'imput.imput2' | translate }} </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="" aria-label="branchCode">
                         </div>
-                        <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                    </div>
-
-                    <div class="input-group mb-3">
-                        <div class="input-group-prepend">
-                          <span class="input-group-text font-weight-semibold" id="basic-addon1">Nombre: </span>
-                        </div>
-                        <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                    </div>
 
                 </div>
             </td>

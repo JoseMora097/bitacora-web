@@ -1,28 +1,51 @@
 <main>
+   <title>{{ 'tablero.biapp' | translate }}</title>
     <div class="container-fluid">
-        <h1 class="mt-4">Test Component</h1>
-        <h4>This project was generated with Angular CLI version 9.1.8. Bootstrap v4.4.1. </h4>
+        <h1 class="mt-4"></h1>
+        <h4>{{ 'test.intro' | translate }}</h4>
         <br>
         <ol class="breadcrumb mb-4">
-            <li class="breadcrumb-item"><p> Este es un componente de prueba, y su contenido se ubica en: <b>src/app/administration/test-page</b></p></li>
+            <li class="breadcrumb-item"><p>{{ 'test.alojamiento'| translate }} </p></li>
         </ol>
         <ol class="breadcrumb mb-4">
-            <li class="breadcrumb-item"><p> El menú de opciones arriba y a la izquierda es el <b>dashboard</b> ubicado en: <b>src/app/administration/admin-dashboard</b> y desde él se deben cargar las demás secciones.
-                <br>Para cargar el componente actual, se enlazó el botón a  <b>routerLink="/test-page"</b>, con lo cual <b>router-outlet</b> carga la pagina.</p></li>
+            <li class="breadcrumb-item"><p> {{ 'test.menu1'| translate }} .
+                <br>
+                <br> {{ 'test.menu2'| translate }} </p></li>
         </ol>
         <ol class="breadcrumb mb-4">
-            <li class="breadcrumb-item"><p>El modulo de enrutamiento se encuentra en: <b>src/app/app-routing-module.ts</b></p></li>
-        </ol>
-
-
-
-
-
-
-
-
-
-
+            <li class="breadcrumb-item"><p>{{ 'test.modulo'| translate }}</p></li>
+       
+          </ol> 
+          <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item"><p>{{ 'test.TEXT1'| translate }}</p></li>
+       
+          </ol> 
+          <ol class="breadcrumb mb-4">
+            <li class="breadcrumb-item"><p>{{ 'test.TEXT2'| translate }}</p></li>
+       
+          </ol> 
+          <label>
+          
+            <div class="card bg-light text-dark mb-4 flex-box">
+                <div class="input-group mb-3">
+                    
+                    
+                    <div class="input-group-prepend">                                               <!-- ////MENSAJE DE SELECCIONAR EL BOTON/// -->
+                        <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'test.CLCIK'| translate }} </span>
+                      </div>
+                    <label>
+                      <select class="form-control" #langSelect (change)="changeLang(langSelect.value)">
+                        <option *ngFor="let lang of langs" [value]="lang">
+                          {{ lang }}
+                        </option>
+                     
+                      </select>
+                     
+                    </label>
+                    <div class="input-group-prepend">                                                  <!-- ////IDIOMA ACTUAL:/// -->
+                        <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'TRA'| translate }}</span>
+                      </div>
+                </div>
 
         
     </div>

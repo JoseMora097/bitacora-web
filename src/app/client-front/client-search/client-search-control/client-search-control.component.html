@@ -4,42 +4,42 @@
           <th>
             <!-- //// INPUT PANELS /// -->
             <div class="card bg-light text-dark mb-4 medium-box" style="width: 800px; height: 320px;">
-                
-                <div class="card-header font-weight-bold">Parametros de Busqueda</div>
+                                                             <!-- ////Parametros de Busqueda/// -->
+                <div class="card-header font-weight-bold">{{ 'Busqueda.Parametros_de_Busqueda' | translate }}</div>
                 <br>
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text font-weight-semibold" id="basic-addon1">Rama Cientifica: </span>
+                <div class="input-group mb-3"> 
+                    <div class="input-group-prepend">                                           <!-- ////Rama Cientifica:  /// -->
+                      <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Busqueda.Rama_Cientifica' | translate }}</span>
                     </div>
                     <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text font-weight-semibold" id="basic-addon1">Rango de Precio: </span>
+                    <div class="input-group-prepend">                                            <!-- ////Rango de Precio: /// -->
+                        <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Busqueda.Rango_de_Precio' | translate }}</span>
                     </div>
                     <input type="text" class="form-control" placeholder="" aria-label="branchCode">
                 </div> 
                 <div class="input-group mb-3">   
-                    <div class="input-group-prepend">
-                        <span class="input-group-text font-weight-semibold" id="basic-addon1">Autor: </span>
+                    <div class="input-group-prepend">                                        <!-- ////Autor /// -->
+                        <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Busqueda.Autor' | translate }}</span>
                     </div>
                     <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text font-weight-semibold" id="basic-addon1">Nivel Educativo: </span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                </div> 
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text font-weight-semibold" id="basic-addon1">Rango de Fechas: </span>
+                    <div class="input-group-prepend">                                          <!-- ////Nivel Educativo: /// -->
+                        <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Busqueda.Nivel_Educativo' | translate }} </span>
                     </div>
                     <input type="text" class="form-control" placeholder="" aria-label="branchCode">
                 </div> 
                 <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text font-weight-semibold" id="basic-addon1">Nombre del Proyecto: </span>
+                    <div class="input-group-prepend">                                       <!-- //// Rango de Fechas: /// -->
+                        <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Busqueda.Rango_de_Fechas' | translate }}</span>
                     </div>
                     <input type="text" class="form-control" placeholder="" aria-label="branchCode">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text font-weight-semibold" id="basic-addon1">Idioma: </span>
+                </div> 
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">                                                       <!-- //// nOMBRE DEL PROYECTO/// -->
+                        <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Busqueda.Nombre_del_Proyecto' | translate }}</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="" aria-label="branchCode">
+                    <div class="input-group-prepend">                                                     <!-- //// IDIOMA /// -->
+                        <span class="input-group-text font-weight-semibold" id="basic-addon1">{{ 'Busqueda.Idioma' | translate }}</span>
                     </div>
                     <input type="text" class="form-control" placeholder="" aria-label="branchCode">
                 </div>
@@ -50,10 +50,12 @@
           <th>
             <div class="card bg-light text-dark mb-4" style="height: 320px;">
                 <div class="button-box">
-                    <div class="btn-group-vertical" style="height: 315px;">
-                        <button type="button" class="btn btn-secondary"><i class="fas fa-search"></i> Buscar</button>
-                        <button type="button" class="btn btn-secondary" routerLink="/cart" routerLinkActive="active"><i class="fas fa-check-square"></i> Ir al Carrito</button>
-                        <button type="button" class="btn btn-secondary"><i class="fas fa-redo-alt"></i> Reiniciar Parametros</button>
+                    <div class="btn-group-vertical" style="height: 315px;">                                   <!-- //// Boton Buscar/// -->    
+                        <button type="button" class="btn btn-secondary"><i class="fas fa-search"></i> {{ 'Busqueda.Buscar' | translate }}</button>
+                                                                                                                                                           <!-- //// ir al carrito /// -->                     
+                        <button type="button" class="btn btn-secondary" routerLink="/cart" routerLinkActive="active"><i class="fas fa-check-square"></i>  {{ 'Busqueda.ir_carrito' | translate }}</button>
+                                                                                                         <!-- //// BOTON reiniciar /// -->
+                        <button type="button" class="btn btn-secondary"><i class="fas fa-redo-alt"></i>  {{ 'Busqueda.Reiniciar' | translate }}</button>
                     </div>
                 </div>
             </div>

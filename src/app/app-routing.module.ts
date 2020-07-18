@@ -19,8 +19,20 @@ import { ClientSearchComponent } from './client-front/client-search/client-searc
 import { CartComponent } from './client-front/cart/cart.component';
 import { CheckoutComponent } from './client-front/checkout/checkout.component';
 import { LanguageComponent } from './administration/language/language.component';
+import { ProfileComponent } from './profile/profile.component';
+
+
+
+import { AuthGuard } from './auth.guard';
+
+
 
 const routes: Routes = [
+  {
+    path: 'profile',
+    component: ProfileComponent,
+    canActivate: [AuthGuard]
+  },
   { path: '',   redirectTo: '/test-page', pathMatch: 'full' },
   { path: 'app-admin-dashboard', component: AdminDashboardComponent },
   { path: 'test-page', component: TestPageComponent},
