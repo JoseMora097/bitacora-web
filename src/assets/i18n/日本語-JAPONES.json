@@ -1,0 +1,454 @@
+
+{
+  
+    "test" : {
+      "intro":"このプロジェクトは、Angular CLIバージョン9.1.8で生成されました。ブートストラップv4.4.1。",
+      "alojamiento": "src / app /管理/テストページ",
+      "menu1": "上部と左側のオプションメニューは、次の場所にあるダッシュボードです。",
+      "menu2":"現在のコンポーネントをロードするために、ボタンはrouterLink = '/ test-page'にリンクされ、ルーターアウトレットがページをロードします。", 
+      "modulo":"ルーティングモジュールは次の場所にあります：src / app / app-routing-module.ts",
+      
+      "TEXT1": "ここのテキストは、ページの現在の言語を示しています",
+          
+      "TEXT2": "言語の変更を決定した場合、左側または一部のメニューで上から右に変更できます。",
+      "CLCIK": "メニューを表示して言語を選択"
+    },
+
+
+    "ESTO SOLO ES UN COMENTARIO " : {
+        "//COMENTARIO":"Aqui finaliza el test-page estos son los texto ahi introducidos"
+    },
+
+
+
+
+
+
+
+    "ESTO SOLO ES UN COMENTARIO del tablero MENU" : {
+        "//COMENTARIO":"estos son los botones del menu "
+    },
+    "tablero" : {
+      "biapp":"Bitacoraアプリケーション",
+      "bitacora": "科学ログ",
+      "test": "言語を変える",
+      "Proyectos": "プロジェクト",
+      "Ramas_Cientificas": "科学ブランチ",
+      "Tipos": "タイプ",
+      "Consecutivos": "続けて",
+      "Roles": "役割",
+      "Puestos": "投稿",
+      "Educacion": "教育",
+      "Usuarios": "ユーザー",
+      "Bitacora": "ビナクル",
+      "Bitacora_Experimental": "実験ログ",
+      "Errores": "間違い",
+      "Seguridad": "安全保障",
+      "Buscador": "シーカー",
+      "Carrito": "トロリー"
+  
+    
+    },
+    
+  
+  
+    "Proyecto" : {
+      "titulo": "プロジェクト",
+      "subitulo":"主要な",
+      "subitulo2":"プロジェクト",
+      "subitulo3":"プロジェクト情報"
+    },
+  
+    "imput" : {
+      "imput1": "コード:",
+      "imput2":"名前:",
+      "imput3":"科学ブランチ:"
+     
+      
+  
+     
+    },
+  
+  
+    "btn" : {
+      "btn1": " リフレッシュ",
+      "btn2":" 受け入れるために",
+      "btn3":" キャンセル",
+      "btn4":" テキストを消去",
+      "borrar":"削除する",
+      "agregar":" 追加",
+      "eliminar":" 削除する",
+      "Limpiar":" 掃除"
+     
+     
+    },
+  
+  
+    "Descripcion" : {
+      "Des1": "説明の例。 DataTablesプラグインで生成されたテーブル。",
+      "Des2":"DataTablesの公式ドキュメント。",
+      "Des3":"説明"
+  
+     
+    },
+  
+    "tabla" : {
+      "tabla": "テーブル"
+     
+     
+    },
+    "categorias" : {
+      "categoria1": "カテゴリー1",
+      "categoria2": "カテゴリー2",
+      "categoria3": "カテゴリー3",
+      "categoria4": "カテゴリー4",
+      "categoria5": "カテゴリー5",
+      "categoria6": "カテゴリー6"
+    },
+
+
+
+
+
+    "Ramas" : {
+      "titulo": "科学ブランチ",
+      "subitulo":"主要な",
+      "subitulo2":"科学ブランチ",
+      "subitulo3":"科学ブランチ情報",
+      "Busqueda":"ただ検索"
+    },
+  
+    "tipo" : {
+      "titulo": "連続したタイプ",
+      "subitulo":"主要な",
+      "subitulo2":"連続したタイプ",
+      "Busqueda":"ただ検索"
+     
+      
+  
+      
+  
+    },
+  
+    "consecutivo" : {
+      "titulo":"続けて",
+      "sub1":"主要な",
+      "sub2":"続けて",
+    "Posee_Prefijo":"プレフィックスがあります",
+    "Valor_Consecutivo":"連続した価値",
+    "Descripcion":"説明：",
+    "Tip_conse": "連続したタイプ",
+    "Info_del_Con": "連続した情報",
+    "Tipo":"タイプ："
+    },
+  
+  
+  
+    "Roles" : {
+      "titulo":"役割",
+      "sub1":"主要な",
+      "sub2":"役割",
+      "Info_de_los_Roles":"役割情報",
+    "Codigo_de_Rol":"役割コード：",
+    "Nombre":"名前:",
+    "Detalle":"細部:",
+    "Busqueda":"Solo ただ検索"
+    },
+  
+  
+    "Puestos" : {
+      "titulo":"投稿",
+      "sub1":"主要な",
+      "sub2":"投稿",
+      "Info_de_Puestos":"求人情報",
+      "Rol_en_el_Laboratorio":"研究室での役割：",
+    "Lider_de_Equipo":"チームリーダー",
+    "Busqueda":"ただ検索"
+    },
+  
+  
+  
+    
+    "Educacion" : {
+      "titulo":"アカデミックレベル",
+      "sub1":"主要な",
+      "sub2":"アカデミックレベル",
+      "Info_academica":"学術レベルの情報",
+      "Detalle":"詳細：",
+      "Nivel_Academico":"アカデミックレベル",
+    "Busqueda":"ただ検索"
+    },
+  
+    "Usuario" : {
+      "titulo":"ユーザー",
+      "sub1":"主要な",
+      "sub2":"ユーザー",
+      "Dastos_usuario_investigador":"調査官ユーザーデータ",
+  
+      "Primer_Apellido": "姓：",
+      "Segundo_Apellido":"2番目の姓：",
+      "Telefono":"電話:",
+      "Apodo": "ニックネーム:",
+      "Privilegios":"特権:",
+  
+  
+      "Dastos_usuario":"ユーザーの技術データ",
+      "Iniciar_sesión": "ログインする：",
+      "Contrasena": "パスワード:",
+      "Confirmar_Contrasena": "パスワードを認証する：",
+      "Cambio_de_Contrasena": "パスワードの変更：",
+  
+      "Guardar": "変更内容を保存:",
+      "Limpiar": "掃除：",
+  
+      "Privilegios_control": "システム制御権限：",
+      "Administrador_del_Sistema": "システム管理者：",
+      "Administrador_de_Seguridad": "セキュリティ管理者：",
+  
+  
+      "Nivel_Academico": "学歴：",
+      "Puesto": "露店:",
+      "Cargar_Firma": "署名をアップロード:",
+      "Cargar_Foto": "写真をアップする:",
+  
+  
+      
+      "Agregar": "追加:",
+      "Eliminar": "削除する:"
+    },
+  
+  
+  
+    
+    "Bitacora" : {
+      "titulo":"レジストリ",
+      "sub1":"主要な",
+      "sub2":"レジストリ",
+      "Informacion_de_la_Bitacora":"ログ情報",
+      "Consulta_por_rango_de_fecha":"日付範囲によるクエリ",
+      "Consulta_General":"一般相談",
+      "Consulta_por_Usuario":"ユーザーによる相談",
+      "Fecha_Inicial":"F初期チェック:",
+      "Fecha_Final":"最終日:",
+      "Usuario":"ユーザー",
+      "Aceptar":"受け入れるために",
+      "Cancelar":"キャンセル"
+     
+    },
+  
+  
+  
+  
+    "Bitacora_Experimental" : {
+      "titulo":"実験ログ",
+      "sub1":"主要な",
+      "sub2":"実験ログ",
+      "Apodo": "ニックネーム:",
+      "Privilegios":"特権:",
+      "Informacion_de_la_Bitacora":"ログ情報",
+      "Busqueda":"ただ検索",
+      "Codigo_del_Experimento":"実験コード:",
+      "Nombre_del_Usuario":"ユーザー名：",
+      "Codigo_del_Proyecto":"ユーザー名：:",
+      "Nombre_del_Experimento":"実験名:",
+      "Fecha_de_Realizacio":"実現日：",
+  
+      "Detalle_del_Experimento":"実験の詳細：",
+      "Cargar_Firma_Testigo":"証人の署名をアップロード：",
+      
+      "Cargar":"証人の署名をアップロード：",
+      "borrar":"削除する",
+       
+  
+      "Asocie_la_bitacora_con_el_siguiente_proyecto":"ログを次のプロジェクトに関連付けます",
+      "Nombre_del_Proyecto":"プロジェクトの名前："
+  
+     
+    },
+  
+  
+    
+    "error" : {
+      "titulo":"間違い",
+      "sub1":"主要な",
+      "sub2":"間違い",
+      "Informacion_de_los_Errores": "エラー情報",
+      "Consulta_por_rango_de_fecha":"日付範囲によるクエリ",
+      "Consulta_General":"一般相談",
+      "Consulta_por_Usuario":"ユーザーによる相談",
+      "Fecha_Inicial":"最初の日付：",
+      "Fecha_Final":"最終日:",
+      "Usuario":"ユーザー",
+      "Aceptar":"受け入れるために",
+      "Cancelar":"キャンセル"
+  
+    },
+  
+  
+  
+  
+    
+    "Busqueda" : {
+      "titulo":"探す",
+      "sub1":"カスタマーポータル",
+      "sub2":"探す",
+      "Parametros_de_Busqueda": "検索パラメーター",
+      "Rama_Cientifica":"科学ブランチ",
+      "Rango_de_Precio":"価格帯",
+      "Autor":"著者",
+      "Nivel_Educativo":"教育レベル：:",
+      "Rango_de_Fechas":"期間:",
+      "Nombre_del_Proyecto":"プロジェクトの名前：",
+      "Idioma":"言語",
+      "Buscar":"検索する",
+      "ir_carrito":"カートに移動",
+      "Reiniciar":"パラメータをリセット"
+  
+    },
+  
+  
+  
+      
+    "Carrito" : {
+      "titulo":"ショッピングカート",
+      "sub1":"カスタマーポータル",
+      "sub2":"トロリー",
+      "Revise": "購入する商品をここで確認してください。",
+      "nombre":"名前",
+      "Cantidad":"量",
+      "Precio":"価格",
+      "Nombre_del_Proyecto":"プロジェクトの名前：",
+      "Sub_Total":"小計",
+      "Envío":"運送",
+      "Total":"合計",
+      "Continuar_buscando":"検索を続ける",
+      "Confirmar_item":"アイテムを確認 "
+    },
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+     
+  
+      
+      "TRA": "現在の言語（ 日本語 ）- JAPONES",
+           
+     
+      "bitacora" : {
+        "bi": "科学ログ〜Webサービス2020"
+       
+      },
+      "ayuda" : {
+        "ayuda": "助けて"
+       
+      },
+  
+     
+  
+
+"AÑADIR DESDE AQUI PARA ABAJO " : {
+  "ABAJO": "--------------------------------------------------------------------------------------"
+ 
+},
+"rama" : {
+  "mensaje_panel": "この項目は必須です"
+ 
+},
+
+
+
+"dashboard" : {
+  "Ayuda": "助けて",
+  "Menu": "メニュー",
+  "Cambiar_idioma": "言語を変更",
+  "Cerrar_sesion": "サインオフ"
+
+   
+
+},
+
+"revicion" : {
+  "checkout": "改訂命令",
+  "titulo": "注文レビュー",
+  "titulo2": " 「カスタマーポータル」",
+  "Carrito": "トロリー",
+  "Informacion_de_Pago": "支払情報",
+  "Metodo_de_Pago": "支払方法",
+  "Credito": "クレジット",
+  "Debito": "債務",
+  "Nombre_en_la_tarjeta": "カードの名前",
+  "Nombre_completo_como_se_muestra_en_la_tarjeta": "カードに記載されている氏名。",
+  "Numero_de_tarjeta": "カード番号",
+  "Expiracion": "有効期限",
+  "CVV": "CVV",
+  "Regresar_al_Carrito": "カートに戻る",
+  "Realizar_Compra": "クレジット"
+  
+   
+
+},
+
+  
+
+
+"login" : {
+  "Inicio_de_Sesion": "ログインする",
+  "Email": "Eメール",
+  "Contrasena": "パスワード",
+  "ingrese1": "メールアドレスを入力",
+  "ingrese2contra": "パスワードを入力してください",
+  "Recordar_Contrasena": "パスワードを覚える",
+  "Registrar": "登録するために",
+  "Iniciar_sesion": "ログインする",
+  "IngresarLinke": "Linkedinアカウントでログイン",
+  "Registrar_Cuenta": "アカウント登録",
+  "recuperarContrasena": "パスワードを回復"
+  
+
+
+},
+
+  "recuperar" : {
+  "Recuperar_Contrasena": "パスワードを回復",
+  "Ingrese_su_correo_electronico": "メールアドレスを入力",
+  "sucorreo": "あなたのメール@ドメイン.と",
+  "Regresar_a_Inicio_de_Sesion": "ログインに戻る"  ,
+  "Registrar_Cuenta": "アカウント登録",
+  "Restablecer": "パスワードを復元",
+  "Direcciondecorreoelectronico": "電子メールアドレス"
+  
+  
+  
+   
+
+}
+
+
+
+
+
+
+
+
+}
+
+  
+  
+  

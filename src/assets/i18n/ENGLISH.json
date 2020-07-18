@@ -1,0 +1,466 @@
+{
+  "test" : {
+    "intro":"This project was generated with Angular CLI version 9.1.8. Bootstrap v4.4.1.",
+    "alojamiento": "src/app/administration/test-page",
+    "menu1": "The options menu at the top and on the left is the dashboard located at: src / app / administration / admin-dashboard and from it the other sections should be loaded.",
+    "menu2":"To load the current component, the button was linked to routerLink = '/ test-page', whereupon router-outlet loads the page.", 
+    "modulo":"The routing module is located at: src / app / app-routing-module.ts",
+    
+    "TEXT1": "THE TEXT HERE SHOWS THE CURRENT LANGUAGE OF THE PAGE",
+        
+    "TEXT2": "IF YOU DECIDE TO CHANGE THE LANGUAGE YOU CAN DO IT IN THE MENU ON THE LEFT OR IN THE PART FROM THE TOP TO THE RIGHT",
+    "CLCIK": "SELECT THE LANGUAGE BY DISPLAYING THE MENU"
+  
+
+  
+  },
+  "tablero" : {
+    "bitacora": "Scientific Log",
+    "biapp":"Bitacora App",
+    "test": "Change the language",
+    "Proyectos": "Projects",
+    "Ramas_Cientificas": "Scientific Branches",
+    "Tipos": "Types",
+    "Consecutivos": "In a row",
+    "Roles": "Roles",
+    "Puestos": "Posts",
+    "Educacion": "Education",
+    "Usuarios": "Users",
+    "Bitacora": "Binnacle",
+    "Bitacora_Experimental": "Experimental Log",
+    "Errores": "Mistakes",
+    "Seguridad": "Security",
+    "Buscador": "Seeker",
+    "Carrito": "Trolley"
+
+    
+  },
+  "Proyecto" : {
+    "titulo": "Projects",
+    "subitulo":"Principal",
+    "subitulo2":"Projects",
+    "subitulo3":"Project Information"
+
+
+  },
+  "imput" : {
+    "imput1": "Code:",
+    "imput2":"Name:",
+    "imput3":"Scientific Branch"
+    
+    
+   
+  },
+
+  "btn": {
+    "btn1": "Refresh",
+    "btn2": "Accept",
+    "btn3": "Cancel",
+    "btn4": "Delete Text",
+    "agregar":"Add",
+    "eliminar":"Remove",
+    "borrar":"Delete",
+    "Limpiar":" Clean"
+
+   
+   
+  },
+   
+  "Descripcion" : {
+    "Des1": "Example Description. Table generated with DataTables plugin.",
+    "Des2": "Official DataTables documentation.",
+    "Des3":"Description"
+   
+  },
+  "tabla" : {
+    "tabla": "Table"
+   
+   
+  },
+  "categorias" : {
+    "categoria1": "Category 1",
+    "categoria2": "Category 2",
+    "categoria3": "Category 3",
+    "categoria4": "Category 4",
+    "categoria5": "Category 5",
+    "categoria6": "Category 6"
+   
+   
+  },
+
+  "Ramas" : {
+    "titulo": "Scientific Branches",
+    "subitulo":"Principal",
+    "subitulo2":"Scientific Branches",
+    "subitulo3":"Scientific Branch Information",
+    "Busqueda":"Just Search"
+  },
+  
+
+  "tipo" : {
+    "titulo": "Types of Consecutives",
+    "subitulo":"Principal",
+    "subitulo2":"Types of Consecutives",
+    "Busqueda":"Just Search"
+
+  },
+
+
+
+
+  "consecutivo" : {
+    "titulo":"In a row",
+    "sub1":"Principal",
+    "sub2":"In a row",
+  "Posee_Prefijo":"It has a prefix",
+  "Valor_Consecutivo":"Consecutive value",
+  "Descripcion":"Description:",
+  "Tip_conse": "Types of Consecutives",
+  "Info_del_Con": "Consecutive Information",
+  "Tipo":"Type:"
+  },
+
+
+
+
+  "Roles" : {
+    "titulo":"Roles",
+    "sub1":"Principal",
+    "sub2":"Roles",
+    "Info_de_los_Roles":"Role Information",
+  "Codigo_de_Rol":"Role Code:",
+  "Nombre":"Name:",
+  "Detalle":"Detail:",
+  "Busqueda":"Just Search"
+  },
+
+
+ "Puestos" : {
+    "titulo":"Posts",
+    "sub1":"Principal",
+    "sub2":"Posts",
+    "Info_de_Puestos":"Job Information",
+    "Rol_en_el_Laboratorio":"Role in the Laboratory:",
+  "Lider_de_Equipo":"Team leader",
+  "Busqueda":"Just Search"
+  },
+
+
+
+
+
+
+  
+  "Educacion" : {
+    "titulo":"Academic Levels",
+    "sub1":"Principal",
+    "sub2":"Academic Levels",
+    "Info_academica":"Academic Level Information",
+    "Detalle":"Detail:",
+    "Nivel_Academico":"Academic level",
+    "Busqueda":"Just Search"
+  },
+
+
+
+
+  "Usuario" : {
+    "titulo":"Users",
+    "sub1":"Principal",
+    "sub2":"Users",
+    "Dastos_usuario_investigador":"Investigator User Data",
+    "Codigo": "Code:",
+    "Nombre":"Nombre:",
+    "Primer_Apellido": "Surname:",
+    "Segundo_Apellido":"Second surname",
+    "Telefono":"Telephone:",
+    "Apodo": "Nickname:",
+    "Privilegios":"Privileges:",
+
+
+    "Dastos_usuario":"Technical Data of the User",
+    "Iniciar_sesión": "Login:",
+    "Contrasena": "Password:",
+    "Confirmar_Contrasena": "Confirm Password:",
+    "Cambio_de_Contrasena": "Change of password:",
+
+    "Guardar": "Save Changes:",
+    "Limpiar": "Clean:",
+
+    "Privilegios_control": "System Control Privileges:",
+    "Administrador_del_Sistema": "System administrator:",
+    "Administrador_de_Seguridad": "Security Administrator:",
+
+
+    "Nivel_Academico": "Academic level:",
+    "Puesto": "Market Stall:",
+    "Cargar_Firma": "Upload Signature:",
+    "Cargar_Foto": "Upload Photo:",
+
+
+    
+    "Agregar": "Add:",
+    "Eliminar": "Remove:"
+  },
+
+
+
+  
+  "Bitacora" : {
+    "titulo":"Registry",
+    "sub1":"Principal",
+    "sub2":"Registry",
+    "Informacion_de_la_Bitacora":"Log Information",
+    "Consulta_por_rango_de_fecha":"Query by date range",
+    "Consulta_General":"General Consultation",
+    "Consulta por Usuario":"Consultation by User",
+    "Fecha_Inicial":"Initial date:",
+    "Fecha_Final":"Final date:",
+    "Usuario":"Users",
+    "Aceptar":"To accept",
+    "Cancelar":"Cancel"
+   
+  },
+
+
+
+
+
+  
+  "Bitacora_Experimental" : {
+    "titulo":"Experimental Log",
+    "sub1":"Principal",
+    "sub2":"Experimental Log",
+    "Apodo": "Nickname:",
+    "Privilegios":"Privileges:",
+    "Informacion_de_la_Bitacora":"Log Information",
+    "Busqueda":"Just Search",
+    "Codigo_del_Experimento":"Experiment Code:",
+    "Nombre_del_Usuario":"User name:",
+    "Codigo_del_Proyecto":"Project Code:",
+    "Nombre_del_Experimento":"Experiment Name:",
+    "Fecha_de_Realizacio":"Date of realization:",
+
+    "Detalle_del_Experimento":"Experiment Detail:",
+    "Cargar_Firma_Testigo":"Upload Witness Signature:",
+    
+    "Cargar":"Load",
+    "borrar":"Delete",
+     
+
+    "Asocie_la_bitacora_con_el_siguiente_proyecto":"Associate the log with the following project",
+    "Nombre_del_Proyecto":"Project's name:"
+
+   
+  },
+
+
+  
+  "error" : {
+    "titulo":"Mistakes",
+    "sub1":"Principal",
+    "sub2":"Mistakes",
+    "Informacion_de_los_Errores": "Error Information",
+    "Consulta_por_rango_de_fecha":"Query by date range",
+    "Consulta_General":"General Consultation",
+    "Consulta_por_Usuario":"Consultation by User",
+    "Fecha_Inicial":"Initial date:",
+    "Fecha_Final":"Final date:",
+    "Usuario":"Users",
+    "Aceptar":"To accept",
+    "Cancelar":"Cancel"
+
+  },
+  
+  
+  "Busqueda" : {
+    "titulo":"Search",
+    "sub1":"Customer Portal",
+    "sub2":"Search",
+    "Parametros_de_Busqueda": "Search parameters",
+    "Rama_Cientifica":"Scientific Branch",
+    "Rango_de_Precio":"Price range",
+    "Autor":"Author",
+    "Nivel_Educativo":"Education level:",
+    "Rango_de_Fechas":"Date range:",
+    "Nombre_del_Proyecto":"Project's name:",
+    "Idioma":"Language",
+    "Buscar":"Search for",
+    "ir_carrito":"Go to cart",
+    "Reiniciar":"Reset Parameters"
+
+  },
+
+
+      
+  "Carrito" : {
+    "titulo":"Shopping Cart",
+    "sub1":"Customer Portal",
+    "sub2":"Trolley ",
+    "Revise": "Check here the items to buy.",
+    "nombre":"Name",
+    "Cantidad":"Quantity",
+    "Precio":"Price",
+    "Nombre_del_Proyecto":"Project's name:",
+    "Sub_Total":"Subtotal",
+    "Envío":"Shipping",
+    "Total":"Total",
+    "Continuar_buscando":"Continue searching",
+    "Confirmar_item":"Confirm Items"
+
+  },
+
+  "TRA": "CURRENT LANGUAGE (ENGLISH)",
+
+      
+    "bitacora" : {
+      "bi": "Scientific Log ~ Web Services 2020"
+     
+    },
+    "ayuda" : {
+      "ayuda": "Help"
+     
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "AÑADIR DESDE AQUI PARA ABAJO " : {
+      "ABAJO": "--------------------------------------------------------------------------------------"
+     
+    },
+    
+    
+    
+  "dashboard" : {
+      "Ayuda": "Help",
+      "Menu": "Menu",
+      "Cambiar_idioma": "Change language",
+      "Cerrar_sesion": "Sign off"
+    
+    } ,
+    "revicion" : {
+      "checkout": "order revision",
+      "titulo": "Order Review",
+      "titulo2": " Customer Portal",
+      "Carrito": "Trolley",
+      "Informacion_de_Pago": "Payment information",
+      "Metodo_de_Pago": "Payment method",
+      "Debito": "Debit",
+      "Credito": "Credit",
+      "Nombre_en_la_tarjeta": "Name on the card",
+      "Nombre_completo_como_se_muestra_en_la_tarjeta": "Full name as shown on the card.",
+      "Numero_de_tarjeta": "Card number",
+      "Expiracion": "Expiration",
+      "CVV": "CVV",
+      "Regresar_al_Carrito": "Back to Cart",
+      "Realizar_Compra": "Make a purchase"
+      
+       
+    
+    },
+
+    
+"login" : {
+  "Inicio_de_Sesion": "log in",
+  "Email": "E-mail",
+  "Contrasena": "Password",
+  "ingrese1": "enter your email",
+  "ingrese2contra": "enter your password",
+  "Recordar_Contrasena": "Remember password",
+  "Registrar": "to register",
+  "Iniciar_sesion": "Log in",
+  "IngresarLinke": "Login with your Linkedin account",
+  "Registrar_Cuenta": "Register Account",
+  "recuperarContrasena": "recover password"
+
+
+},
+
+  "recuperar" : {
+  "Recuperar_Contrasena": "Recover password",
+  "Ingrese_su_correo_electronico": "Enter your email.",
+  "sucorreo": "yourmail@domain.com",
+  "Regresar_a_Inicio_de_Sesion": "Return to Login"  ,
+  "Registrar_Cuenta": "Register Account",
+  "Restablecer": "Restore password",
+  "Direcciondecorreoelectronico": "Email address"
+  
+  
+   
+
+
+  }
+
+  
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+ 

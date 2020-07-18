@@ -1,0 +1,456 @@
+
+{
+  
+  "test" : {
+    "intro":"Este proyecto se generó con Angular CLI versión 9.1.8. Bootstrap v4.4.1.",
+    "alojamiento": "src/app/administration/test-page",
+    "menu1": "El menú de opciones arriba y a la izquierda es el dashboard ubicado en: src/app/administration/admin-dashboard y desde él se deben cargar las demás secciones.",
+    "menu2":"Para cargar el componente actual, se enlazó el botón a routerLink='/test-page', con lo cual router-outlet carga la pagina.", 
+    "modulo":"El modulo de enrutamiento se encuentra en: src/app/app-routing-module.ts",
+    
+    "TEXT1": "EL TEXTO DE AQUI MUESTRA EL LENGUAJE ACTUAL DE LA PAGINA",
+        
+    "TEXT2": "SI DECEA CAMBIAR EL IDIOMA PUEDE HACERLO EN EL MENU DE LA IZQUIERDA O BIEN EN LA PARTE DE ARRIBA A LA DERECHA",
+    "CLCIK": "SELECCIONE EL IDIOMA DESPLEGANDO EL MENU"
+  
+  
+
+  
+  },
+  
+  "tablero" : {
+    "biapp":"Aplicación Bitacora",
+    "bitacora": "Bitacora Cientifica",
+    "test": "Cambiar el idioma",
+    "Proyectos": "Proyectos",
+    "Ramas_Cientificas": "Ramas Cientificas",
+    "Tipos": "Tipos",
+    "Consecutivos": "Consecutivos",
+    "Roles": "Roles",
+    "Puestos": "Puestos",
+    "Educacion": "Educacion",
+    "Usuarios": "Usuarios",
+    "Bitacora": "Bitacora",
+    "Bitacora_Experimental": "Bitacora Experimental",
+    "Errores": "Errores",
+    "Seguridad": "Seguridad",
+    "Buscador": "Buscador",
+    "Carrito": "Carrito"
+
+  
+  },
+  
+
+
+  "Proyecto" : {
+    "titulo": "Proyectos",
+    "subitulo":"Principal",
+    "subitulo2":"Proyectos",
+    "subitulo3":"Informacion del Proyecto"
+  },
+
+  "imput" : {
+    "imput1": "Codigo:",
+    "imput2":"Nombre:",
+    "imput3":"Rama Cientifica:"
+   
+    
+
+   
+  },
+
+
+  "btn" : {
+    "btn1": " Refrescar",
+    "btn2":" Aceptar",
+    "btn3":" Cancelar",
+    "btn4":" Borrar Texto",
+    "borrar":"Borrar",
+    "agregar":" Agregar",
+    "eliminar":" Eliminar",
+    "Limpiar":" Limpiar"
+   
+   
+  },
+
+
+  "Descripcion" : {
+    "Des1": "Descripcion de Ejemplo. Tabla generada con DataTables plugin.",
+    "Des2":"Official DataTables documentation.",
+    "Des3":"Description"
+
+   
+  },
+
+  "tabla" : {
+    "tabla": "Tabla"
+   
+   
+  },
+  "categorias" : {
+    "categoria1": "Categoria 1",
+    "categoria2": "Categoria 2",
+    "categoria3": "Categoria 3",
+    "categoria4": "Categoria 4",
+    "categoria5": "Categoria 5",
+    "categoria6": "Categoria 6"
+   
+   
+  },
+  "Ramas" : {
+    "titulo": "Ramas Cientificas",
+    "subitulo":"Principal",
+    "subitulo2":"Ramas Cientificas",
+    "subitulo3":"Informacion de la Rama Cientifica",
+    "Busqueda":"Solo Busqueda"
+  },
+
+  "tipo" : {
+    "titulo": "Tipos de Consecutivos",
+    "subitulo":"Principal",
+    "subitulo2":"Tipos de Consecutivos",
+    "Busqueda":"Solo Busqueda"
+   
+    
+
+    
+
+  },
+
+  "consecutivo" : {
+    "titulo":"Consecutivos",
+    "sub1":"Principal",
+    "sub2":"Consecutivos",
+  "Posee_Prefijo":"Posee Prefijo",
+  "Valor_Consecutivo":"Valor Consecutivo",
+  "Descripcion":"Descripcion:",
+  "Tip_conse": "Tipos de Consecutivos",
+  "Info_del_Con": "Informacion del Consecutivo",
+  "Tipo":"Tipo:"
+  },
+
+
+
+  "Roles" : {
+    "titulo":"Roles",
+    "sub1":"Principal",
+    "sub2":"Roles",
+    "Info_de_los_Roles":"Informacion de los Roles",
+  "Codigo_de_Rol":"Codigo de Rol:",
+  "Nombre":"Nombre:",
+  "Detalle":"Detalle:",
+  "Busqueda":"Solo Busqueda"
+  },
+
+
+  "Puestos" : {
+    "titulo":"Puestos",
+    "sub1":"Principal",
+    "sub2":"Puestos",
+    "Info_de_Puestos":"Informacion del Puesto",
+    "Rol_en_el_Laboratorio":"Rol en el Laboratorio:",
+  "Lider_de_Equipo":"Lider de Equipo",
+  "Busqueda":"Solo Busqueda"
+  },
+
+
+
+  
+  "Educacion" : {
+    "titulo":"Niveles Academicos",
+    "sub1":"Principal",
+    "sub2":"Niveles Academicos",
+    "Info_academica":"Informacion del Nivel Academico",
+    "Detalle":"Detalle:",
+    "Nivel_Academico":"Nivel Academico",
+  "Busqueda":"Solo Busqueda"
+  },
+
+  "Usuario" : {
+    "titulo":"Usuarios",
+    "sub1":"Principal",
+    "sub2":"Usuarios",
+    "Dastos_usuario_investigador":"Datos del Usuario Investigador",
+
+    "Primer_Apellido": "Primer Apellido:",
+    "Segundo_Apellido":"Segundo Apellido:",
+    "Telefono":"Telefono:",
+    "Apodo": "Apodo:",
+    "Privilegios":"Privilegios:",
+
+
+    "Dastos_usuario":"Datos Tecnicos del Usuario",
+    "Iniciar_sesión": "Iniciar sesión:",
+    "Contrasena": "Contraseña:",
+    "Confirmar_Contrasena": "Confirmar Contrasena:",
+    "Cambio_de_Contrasena": "Cambio de Contrasena:",
+
+    "Guardar": "Guardar Cambios:",
+    "Limpiar": "Limpiar:",
+
+    "Privilegios_control": "Privilegios para el Control del Sistema:",
+    "Administrador_del_Sistema": "Administrador del Sistema:",
+    "Administrador_de_Seguridad": "Administrador de Seguridad:",
+
+
+    "Nivel_Academico": "Nivel Academico:",
+    "Puesto": "Puesto:",
+    "Cargar_Firma": "Cargar Firma:",
+    "Cargar_Foto": "Cargar Foto:",
+
+
+    
+    "Agregar": "Agregar:",
+    "Eliminar": "Eliminar:"
+  },
+
+
+
+  
+  "Bitacora" : {
+    "titulo":"Registro",
+    "sub1":"Principal",
+    "sub2":"Registro",
+    "Informacion_de_la_Bitacora":"Informacion de la Bitacora",
+    "Consulta_por_rango_de_fecha":"Consulta por rango de fecha",
+    "Consulta_General":"Consulta General",
+    "Consulta_por_Usuario":"Consulta por Usuario",
+    "Fecha_Inicial":"Fecha Inicial:",
+    "Fecha_Final":"Fecha Final:",
+    "Usuario":"Usuarios",
+    "Aceptar":"Aceptar",
+    "Cancelar":"Cancelar"
+   
+  },
+
+
+
+
+  "Bitacora_Experimental" : {
+    "titulo":"Bitacora Experimental",
+    "sub1":"Principal",
+    "sub2":"Bitacora Experimental",
+    "Apodo": "Apodo:",
+    "Privilegios":"Privilegios:",
+    "Informacion_de_la_Bitacora":"Informacion de la Bitacora",
+    "Busqueda":"Solo Busqueda",
+    "Codigo_del_Experimento":"Codigo del Experimento:",
+    "Nombre_del_Usuario":"Nombre del Usuario:",
+    "Codigo_del_Proyecto":"Codigo del Proyecto:",
+    "Nombre_del_Experimento":"Nombre del Experimento:",
+    "Fecha_de_Realizacio":"Fecha de Realizacion:",
+
+    "Detalle_del_Experimento":"Detalle del Experimento:",
+    "Cargar_Firma_Testigo":"Cargar Firma Testigo:",
+    
+    "Cargar":"CARGAR",
+    "borrar":"Borrar",
+     
+
+    "Asocie_la_bitacora_con_el_siguiente_proyecto":"Asocie la bitacora con el siguiente proyecto",
+    "Nombre_del_Proyecto":"Nombre del Proyecto:"
+
+   
+  },
+
+
+  
+  "error" : {
+    "titulo":"Errores",
+    "sub1":"Principal",
+    "sub2":"Errores",
+    "Informacion_de_los_Errores": "Informacion de los Errores",
+    "Consulta_por_rango_de_fecha":"Consulta por rango de fecha",
+    "Consulta_General":"Consulta General",
+    "Consulta_por_Usuario":"Consulta por Usuario",
+    "Fecha_Inicial":"Fecha Inicial:",
+    "Fecha_Final":"Fecha Final:",
+    "Usuario":"Usuarios",
+    "Aceptar":"Aceptar",
+    "Cancelar":"Cancelar"
+
+  },
+
+
+
+
+  
+  "Busqueda" : {
+    "titulo":"Busqueda",
+    "sub1":"Portal de Cliente",
+    "sub2":"Busqueda",
+    "Parametros_de_Busqueda": "Parametros de Busqueda",
+    "Rama_Cientifica":"Rama Cientifica",
+    "Rango_de_Precio":"Rango de Precio",
+    "Autor":"Autor",
+    "Nivel_Educativo":"Nivel Educativo:",
+    "Rango_de_Fechas":"Rango de Fechas:",
+    "Nombre_del_Proyecto":"Nombre del Proyecto:",
+    "Idioma":"Idioma",
+    "Buscar":"Buscar",
+    "ir_carrito":"Ir al carrito",
+    "Reiniciar":"Reiniciar Parametros"
+
+  },
+
+
+
+    
+  "Carrito" : {
+    "titulo":"Carrito de Compras",
+    "sub1":"Portal de Cliente",
+    "sub2":"Carrito ",
+    "Revise": "Revise aqui los item a comprar.",
+    "nombre":"Nombre",
+    "Cantidad":"Cantidad",
+    "Precio":"Precio",
+    "Nombre_del_Proyecto":"Nombre del Proyecto:",
+    "Sub_Total":"Sub-Total",
+    "Envío":"Envío",
+    "Total":"Total",
+    "Continuar_buscando":"Continuar Buscando",
+    "Confirmar_item":"Confirmar Items"
+
+  },
+
+
+
+
+
+
+
+
+
+
+
+  
+  "TRA": "IDIOMA ACTUAL ( ESPAÑOL )",
+         
+   
+  "bitacora" : {
+    "bi": "Bitácora Científica ~ Servicios Web 2020"
+   
+  },
+  "ayuda" : {
+    "ayuda": "ayuda"
+   
+  },
+
+
+
+
+
+
+"AÑADIR DESDE AQUI PARA ABAJO " : {
+  "ABAJO": "--------------------------------------------------------------------------------------"
+ 
+},
+"rama" : {
+  "mensaje_panel": "This field is required"
+ 
+},
+
+
+
+"dashboard" : {
+  "Ayuda": "Ayuda",
+  "Menu": "Menu",
+  "Cambiar_idioma": "Cambiar idioma",
+  "Cerrar_sesion": "Cerrar sesion"
+
+   
+
+},
+
+"revicion" : {
+  "checkout": "orden revision",
+  "titulo": "Revision de Pedido",
+  "titulo2": " Portal de Cliente",
+  "Carrito": "Carrito",
+  "Informacion_de_Pago": " Informacion de Pago",
+  "Metodo_de_Pago": "Metodo de Pago",
+  "Credito": "Credito",
+  "Debito": "Debito",
+  "Nombre_en_la_tarjeta": "Nombre en la tarjeta",
+  "Nombre_completo_como_se_muestra_en_la_tarjeta": "Nombre completo como se muestra en la tarjeta.",
+  "Numero_de_tarjeta": "Numero de tarjeta",
+  "Expiracion": "Expiracion",
+  "CVV": "CVV",
+  "Regresar_al_Carrito": "Regresar al Carrito",
+  "Realizar_Compra": "Credito"
+  
+   
+
+},
+
+  
+
+
+"login" : {
+  "Inicio_de_Sesion": "Inicio de Sesion",
+  "Email": "Email",
+  "Contrasena": "Contraseña",
+  "ingrese1": "ingrese su correo electronico",
+  "ingrese2contra": "ingrese su contraseña",
+  "Recordar_Contrasena": "Recordar Contrasena",
+  "Registrar": "Registrar",
+  "Iniciar_sesion": "Iniciar sesion",
+  "IngresarLinke": "Ingresar con una cuenta alternativa",
+  "Registrar_Cuenta": "Registrar Cuenta",
+  "recuperarContrasena": "Recuperar Contrasena"
+  
+
+
+},
+
+  "recuperar" : {
+  "Recuperar_Contrasena": "Recuperar Contraseña",
+  "Ingrese_su_correo_electronico": "Ingrese su correo electronico.",
+  "sucorreo": "sucorreo@dominio.com",
+  "Regresar_a_Inicio_de_Sesion": "Regresar a Inicio de Sesion"  ,
+  "Registrar_Cuenta": "Registrar Cuenta",
+  "Restablecer": "Restablecer  Contraseña",
+  "Direcciondecorreoelectronico": "Direccion de correo electronico"
+  
+  
+  
+   
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

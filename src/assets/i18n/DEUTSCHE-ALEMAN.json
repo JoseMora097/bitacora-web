@@ -1,0 +1,440 @@
+
+{
+  
+    "test" : {
+      "intro":"Dieses Projekt wurde mit Angular CLI Version 9.1.8 generiert. Bootstrap v4.4.1.",
+      "alojamiento": "src / app / Administration / Testseite",
+      "menu1": "Das Optionsmenü oben und links befindet sich im Dashboard unter: src / app / administrative / admin-dashboard. Daraus sollten die anderen Abschnitte geladen werden.",
+      "menu2":"Um die aktuelle Komponente zu laden, wurde die Schaltfläche mit routerLink = '/ test-page' verknüpft, woraufhin router-outlet die Seite lädt.", 
+      "modulo":"Das Routing-Modul befindet sich unter: src / app / app-routing-module.ts",
+      
+      "TEXT1": "DER TEXT HIER ZEIGT DIE AKTUELLE SPRACHE DER SEITE",
+          
+      "TEXT2": "Wenn Sie sich entscheiden, die Sprache zu ändern, können Sie dies im Menü links oder im Teil von oben nach rechts tun",
+      "CLCIK": "WÄHLEN SIE DIE SPRACHE AUS, indem Sie das Menü anzeigen"
+    
+    
+  
+    
+    },
+    
+  "tablero" : {
+    "biapp":"Bitacora-Anwendung",
+    "bitacora": "BitaBitacora Cientificacora Anwendung",
+    "test": "Ändere die Sprache",
+    "Proyectos": "Projekte",
+    "Ramas_Cientificas": "Wissenschaftliche Zweige",
+    "Tipos": "Typen",
+    "Consecutivos": "In einer Reihe",
+    "Roles": "Rollen",
+    "Puestos": "Beiträge",
+    "Educacion": "Bildung",
+    "Usuarios": "Benutzer",
+    "Bitacora": "Binnacle",
+    "Bitacora_Experimental": "Versuchsprotokoll",
+    "Errores": "Fehler",
+    "Seguridad": "Sicherheit",
+    "Buscador": "Sucher",
+    "Carrito": "Wagen"
+
+  
+  },
+  
+
+
+  "Proyecto" : {
+    "titulo": "Projekte",
+    "subitulo":"Schulleiter",
+    "subitulo2":"Projekte",
+    "subitulo3":"Projekt Information"
+  },
+
+  "imput" : {
+    "imput1": "Code:",
+    "imput2":"Name:",
+    "imput3":"Wissenschaftlicher Zweig:"
+   
+    
+
+   
+  },
+
+
+  "btn" : {
+    "btn1": " Aktualisierung",
+    "btn2":" Akzeptieren",
+    "btn3":" Stornieren",
+    "btn4":" Text löschen",
+    "borrar":"Löschen",
+    "agregar":" Hinzufügen",
+    "eliminar":" Entfernen",
+    "Limpiar":" Reinigen"
+   
+   
+  },
+
+
+  "Descripcion" : {
+    "Des1": "Beispiel Beschreibung. Mit dem DataTables-Plugin generierte Tabelle.",
+    "Des2":"Offizielle DataTables-Dokumentation.",
+    "Des3":"Beschreibung"
+
+   
+  },
+
+  "tabla" : {
+    "tabla": "Tabelle"
+   
+   
+  },
+  "categorias" : {
+    "categoria1": "Kategorie 1",
+    "categoria2": "Kategorie 2",
+    "categoria3": "Kategorie 3",
+    "categoria4": "Kategorie 4",
+    "categoria5": "Kategorie 5",
+    "categoria6": "Kategorie 6"
+   
+   
+  },
+  "Ramas" : {
+    "titulo": "Geäst Wissenschaftler",
+    "subitulo":"Schulleiter",
+    "subitulo2":"Geäst Wissenschaftler",
+    "subitulo3":"Informationen zur wissenschaftlichen Abteilung",
+    "Busqueda":"Einfach suchen"
+  },
+
+  "tipo" : {
+    "titulo": "Arten von Konsekutiven",
+    "subitulo":"Schulleiter",
+    "subitulo2":"Arten von Konsekutiven",
+    "Busqueda":"Einfach suchen"
+   
+    
+
+    
+
+  },
+
+  "consecutivo" : {
+    "titulo":"In einer Reihe",
+    "sub1":"Schulleiter",
+    "sub2":"In einer Reihe",
+  "Posee_Prefijo":"Es hat ein Präfix",
+  "Valor_Consecutivo":"Aufeinanderfolgender Wert",
+  "Descripcion":"Beschreibung:",
+  "Tip_conse": "Arten von Konsekutiven",
+  "Info_del_Con": "Aufeinanderfolgende Informationen",
+  "Tipo":"Art:"
+  },
+
+
+
+  "Roles" : {
+    "titulo":"TypeRoles",
+    "sub1":"Schulleiter",
+    "sub2":"TypeRoles",
+    "Info_de_los_Roles":"Rolleninformationen",
+  "Codigo_de_Rol":"Rollencode:",
+  "Nombre":"Name:",
+  "Detalle":"Detail:",
+  "Busqueda":"Nur Suche"
+  },
+
+
+  "Puestos" : {
+    "titulo":"Posts",
+    "sub1":"Schulleiter",
+    "sub2":"Posts",
+    "Info_de_Puestos":"Job-Informationen",
+    "Rol_en_el_Laboratorio":"Rolle im Labor:",
+  "Lider_de_Equipo":"Gruppenführer",
+  "Busqueda":"Einfach suchen"
+  },
+
+
+
+  
+  "Educacion" : {
+    "titulo":"Akademische Niveaus",
+    "sub1":"Schulleiter",
+    "sub2":"Akademische Niveaus",
+    "Info_academica":"Informationen auf akademischem Niveau",
+    "Detalle":"Detail:",
+    "Nivel_Academico":"Akademischer Grad",
+  "Busqueda":"Einfach suchen"
+  },
+
+  "Usuario" : {
+    "titulo":"Benutzer",
+    "sub1":"Gehört",
+    "sub2":"Benutzer",
+    "Dastos_usuario_investigador":"Investigator-Benutzerdaten",
+
+    "Primer_Apellido": "Nachname:",
+    "Segundo_Apellido":"Zweiter Nachname:",
+    "Telefono":"Telefon:",
+    "Apodo": "Spitzname:",
+    "Privilegios":"Privilegien:",
+
+
+    "Dastos_usuario":"Technische Daten des Benutzers",
+    "Iniciar_sesión": "Anmeldung:",
+    "Contrasena": "Passwort:",
+    "Confirmar_Contrasena": "Bestätige das Passwort:",
+    "Cambio_de_Contrasena": "Bestätige das Passwort:",
+
+    "Guardar": "Änderungen speichern:",
+    "Limpiar": "Reinigen:",
+
+    "Privilegios_control": "Systemsteuerungsberechtigungen:",
+    "Administrador_del_Sistema": "Systemadministrator:",
+    "Administrador_de_Seguridad": "Systemadministrator",
+
+
+    "Nivel_Academico": "Akademischer Grad:",
+    "Puesto": "Marktstand:",
+    "Cargar_Firma":"Signatur laden:",
+    "Cargar_Foto":"Foto hochladen:",
+
+
+    
+    "Agregar": "Hinzufügen:",
+    "Eliminar": "Entfernen:"
+  },
+
+
+
+  
+  "Bitacora" : {
+    "titulo":"Registrierung",
+    "sub1":"Schulleiter",
+    "sub2":"Registrierung",
+    "Informacion_de_la_Bitacora":"Informationen des Protokolls",
+    "Consulta_por_rango_de_fecha":"Abfrage nach Datumsbereich",
+    "Consulta_General":"Allgemeine Konsultation",
+    "Consulta_por_Usuario":"Beratung durch Benutzer",
+    "Fecha_Inicial":"Anfangsdatum:",
+    "Fecha_Final":"Letzter Termin:",
+    "Usuario":"Benutzer",
+    "Aceptar":"Akzeptieren",
+    "Cancelar":"Stornieren"
+   
+  },
+
+
+
+
+  "Bitacora_Experimental" : {
+    "titulo":"Bitacora Experimental",
+    "sub1":"Schulleiter",
+    "sub2":"Bitacora Experimental",
+    "Apodo": "Spitzname:",
+    "Privilegios":"Privilegien:",
+    "Informacion_de_la_Bitacora":"Informationen des Protokolls",
+    "Busqueda":"Nur suchen",
+    "Codigo_del_Experimento":"Experiment Code:",
+    "Nombre_del_Usuario":"Nutzername:",
+    "Codigo_del_Proyecto":"Projektnummer:",
+    "Nombre_del_Experimento":"Name des Experiments:",
+    "Fecha_de_Realizacio":"Realisierungsdatum:",
+
+    "Detalle_del_Experimento":"Detail des Experiments:",
+    "Cargar_Firma_Testigo":"Zeugenaussage laden:",
+    
+    "Cargar":"LADEN",
+    "borrar":"Löschen",
+     
+
+    "Asocie_la_bitacora_con_el_siguiente_proyecto":"Verknüpfen Sie das Protokoll mit dem folgenden Projekt",
+    "Nombre_del_Proyecto": "Projektname:"
+
+   
+  },
+
+
+  
+  "error" : {
+    "titulo":"Fehler",
+    "sub1":"Main",
+    "sub2":"Fehler",
+    "Informacion_de_los_Errores":"Fehlerinformationen",
+    "Consulta_por_rango_de_fecha":"Abfrage nach Datumsbereich",
+    "Consulta_General":"Allgemeine Konsultation",
+    "Consulta_por_Usuario":"Beratung durch Benutzer",
+    "Fecha_Inicial":"Anfangsdatum:",
+    "Fecha_Final":"Letzter Termin:",
+    "Usuario":"Benutzer",
+    "Aceptar":"Akzeptieren",
+    "Cancelar":"Stornieren"
+
+  },
+
+
+
+
+  
+  "Busqueda" : {
+    "titulo":"Suche",
+    "sub1":"Kundenportal",
+    "sub2":"Suche",
+    "Parametros_de_Busqueda": "Suchparameter",
+    "Rama_Cientifica":"Wissenschaftlicher Zweig",
+    "Rango_de_Precio":"Preisklasse",
+    "Autor":"Autor",
+    "Nivel_Educativo":"Bildungsniveau:",
+    "Rango_de_Fechas":"Datumsbereich:",
+    "Nombre_del_Proyecto":"Projektname:",
+    "Idioma":"Sprache",
+    "Buscar":"Suchen nach",
+    "ir_carrito": "Zum Einkaufskorb gehen",
+    "Reiniciar":"Parameter zurücksetzen"
+  },
+
+
+
+    
+  "Carrito" : {
+    "titulo":"Einkaufswagen",
+    "sub1":"Kundenportal",
+    "sub2":"Trolley",
+    "Revise":"Überprüfen Sie hier die Artikel zu kaufen.",
+    "nombre":"Name",
+    "Cantidad":"Menge",
+    "Precio":"Preis",
+    "Nombre_del_Proyecto":"Projektname:",
+    "Sub_Total":"Zwischensumme",
+    "Envío":"Versand",
+    "Total":"Gesamt",
+    "Continuar_buscando":"Suche weiter",
+    "Confirmar_item":"Artikel bestätigen"
+
+  },
+
+
+
+
+
+
+
+
+
+
+
+  
+  "TRA": "AKTUELLE SPRACHE ( ALEMAN )",
+         
+   
+  "bitacora" : {
+    "bi": "Wissenschaftliches Protokoll ~ Web Services 2020 "
+   
+  },
+  "ayuda" : {
+    "ayuda": "Hilfe"
+   
+  },
+
+
+
+
+
+
+"AÑADIR DESDE AQUI PARA ABAJO " : {
+  "ABAJO": "--------------------------------------------------------------------------------------"
+ 
+},
+"rama" : {
+  "mensaje_panel": "Dieses Feld wird benötigt"
+ 
+},
+
+
+
+"dashboard" : {
+  "Ayuda": "Hilfe",
+  "Menu": "Speisekarte",
+  "Cambiar_idioma":"Sprache ändern",
+  "Cerrar_sesion": "Ausloggen"
+
+   
+
+},
+
+"revicion" : {
+  "checkout": "Revisionsauftrag",
+  "titulo":"Order Review",
+  "titulo2": "Kundenportal",
+  "Carrito":"Wagen",
+  "Informacion_de_Pago":" Zahlungsinformationen",
+  "Metodo_de_Pago":"Bezahlverfahren",
+  "Credito": "Anerkennung",
+  "Debito":"Schuld",
+  "Nombre_en_la_tarjeta": "Name auf der Karte",
+  "Nombre_completo_como_se_muestra_en_la_tarjeta":"Nombre en la tarjeta",
+  "Numero_de_tarjeta":"Kartennummer",
+  "Expiracion":"Ablauf",
+  "CVV": "CVV",
+  "Regresar_al_Carrito": "Zurück zum Warenkorb",
+  "Realizar_Compra": "Anerkennung"
+   
+
+},
+
+  
+
+
+"login" : {
+  "Inicio_de_Sesion": "Anmeldung",
+  "Email": "Email",
+  "Contrasena": "Passwort",
+  "ingrese1": "geben sie ihre E-Mail Adresse ein",
+  "ingrese2contra": "Geben Sie Ihr Passwort ein",
+  "Recordar_Contrasena": "Passwort merken",
+  "Registrar": "Um sich zu registrieren",
+  "Iniciar_sesion": "Anmeldung",
+  "IngresarLinke": "Mit Ihrem Linkedin-Konto anmelden",
+  "Registrar_Cuenta": "Account registrieren",
+  "recuperarContrasena": "Passwort wiederherstellen"
+  
+
+
+},
+
+  "recuperar" : {
+  "Recuperar_Contrasena": "Passwort wiederherstellen",
+  "Ingrese_su_correo_electronico": "Geben sie ihre E-Mail Adresse ein.",
+  "sucorreo": "Ihre E-Mail@Domain.com",
+  "Regresar_a_Inicio_de_Sesion": "Zurück zum Login",
+  "Registrar_Cuenta": "Account registrieren",
+  "Restablecer": "Passwort wiederherstellen",
+  "Direcciondecorreoelectronico": "E-Mail-Addresse"
+  
+  
+  
+   
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
